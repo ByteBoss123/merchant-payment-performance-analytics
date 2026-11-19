@@ -1,0 +1,28 @@
+{
+  "validation": {
+    "rows": 20,
+    "fee_pct_consistency_failures": [],
+    "pass": true
+  },
+  "routing": {
+    "exempt_dual_fee": 0.61,
+    "exempt_single_fee": 0.26,
+    "exempt_gap_per_txn": 0.35,
+    "exempt_gap_pct_of_dual": 57.4,
+    "exempt_gap_per_100_usd": 0.74,
+    "covered_dual_fee": 0.22,
+    "covered_single_fee": 0.24,
+    "covered_gap_per_txn": -0.02,
+    "dual_merchant_fraud_bps": 11.53,
+    "single_merchant_fraud_bps_upper_bound": 3.66,
+    "dual_all_in_pct": 0.905,
+    "single_all_in_pct_upper_bound": 0.607,
+    "notes": [
+      "Interchange is what issuers receive; merchants pay it through acquirer pricing. Network and acquirer markups excluded.",
+      "Single-message merchant fraud share is not published; bound uses (100% - issuer share 45.3%), so cardholder share is attributed to merchants (conservative).",
+      "Fraud figures are 2023 covered-issuer data; interchange is 2024. Mixed years, stated explicitly.",
+      "Single-message routing is mostly card-present PIN today; card-not-present PINless availability varies by network and issuer."
+    ],
+    "all_in_gap_pct_points_at_least": 0.298
+  }
+}

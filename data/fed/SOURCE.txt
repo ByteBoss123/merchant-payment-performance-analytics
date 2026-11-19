@@ -1,0 +1,1 @@
+source: https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm (2024 table, retrieved 2026-11-19 via HTML; direct CSV download not reachable from build environment)

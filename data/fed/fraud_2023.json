@@ -1,0 +1,5 @@
+{"source": "Federal Reserve Board, 2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer and Merchant Fraud Losses Related to Debit Card Transactions (Dec 2025); https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm; covered issuers only",
+ "dual_message_fraud_bps": 17.9, "dual_message_merchant_share_pct": 64.4,
+ "single_message_fraud_bps": 6.7, "single_message_issuer_share_pct": 45.3,
+ "all_fraud_bps": 17.6, "all_merchant_share_pct": 49.9, "all_issuer_share_pct": 28.3, "all_cardholder_share_pct": 21.8,
+ "cnp_share_of_fraud_losses_pct": 54.3, "cp_avg_txn_value": 36.99, "cnp_avg_txn_value": 63.96}

@@ -1,0 +1,17 @@
+{
+  "fact_payment_rows": 103886,
+  "fact_order_rows": 99441,
+  "dim_seller_rows": 3095,
+  "dup_payment_keys": 0,
+  "dup_order_keys": 0,
+  "orders_without_payment": 1,
+  "orphan_payments": 0,
+  "orphan_order_sellers": 0,
+  "negative_payment_values": 0,
+  "zero_value_payments": 9,
+  "approved_before_purchase": 0,
+  "orders_reconcilable": 98665,
+  "orders_recon_mismatch_gt_1brl": 249,
+  "recon_mismatch_total_brl": 3262.33,
+  "pass": true
+}

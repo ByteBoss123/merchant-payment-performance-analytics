@@ -1,0 +1,170 @@
+{
+  "kpi_by_payment_type": [
+    {
+      "payment_type": "credit_card",
+      "orders": 74975,
+      "gmv_brl": 12542527.15,
+      "gmv_share_pct": 78.35,
+      "avg_order_value_brl": 167.29,
+      "median_approval_hours": 0.27,
+      "p90_approval_hours": 21.39,
+      "failed_order_pct": 1.15,
+      "late_delivery_pct": 6.69,
+      "avg_review": 4.089
+    },
+    {
+      "payment_type": "boleto",
+      "orders": 19784,
+      "gmv_brl": 2869361.27,
+      "gmv_share_pct": 17.92,
+      "avg_order_value_brl": 145.03,
+      "median_approval_hours": 29.07,
+      "p90_approval_hours": 67.27,
+      "failed_order_pct": 1.24,
+      "late_delivery_pct": 7.32,
+      "avg_review": 4.087
+    },
+    {
+      "payment_type": "voucher",
+      "orders": 3151,
+      "gmv_brl": 379043.91,
+      "gmv_share_pct": 2.37,
+      "avg_order_value_brl": 120.29,
+      "median_approval_hours": 0.28,
+      "p90_approval_hours": 24.22,
+      "failed_order_pct": 3.62,
+      "late_delivery_pct": 6.05,
+      "avg_review": 4.006
+    },
+    {
+      "payment_type": "debit_card",
+      "orders": 1527,
+      "gmv_brl": 217939.79,
+      "gmv_share_pct": 1.36,
+      "avg_order_value_brl": 142.72,
+      "median_approval_hours": 0.85,
+      "p90_approval_hours": 24.04,
+      "failed_order_pct": 0.85,
+      "late_delivery_pct": 5.33,
+      "avg_review": 4.17
+    }
+  ],
+  "installment_bands": [
+    {
+      "installment_band": "1",
+      "orders": 24006,
+      "avg_order_value_brl": 100.91,
+      "gmv_share_pct": 19.31,
+      "paid_above_items_pct": 0.0
+    },
+    {
+      "installment_band": "2-3",
+      "orders": 22649,
+      "avg_order_value_brl": 135.58,
+      "gmv_share_pct": 24.48,
+      "paid_above_items_pct": 0.18
+    },
+    {
+      "installment_band": "4-6",
+      "orders": 16160,
+      "avg_order_value_brl": 182.56,
+      "gmv_share_pct": 23.52,
+      "paid_above_items_pct": 0.56
+    },
+    {
+      "installment_band": "7+",
+      "orders": 12160,
+      "avg_order_value_brl": 337.11,
+      "gmv_share_pct": 32.68,
+      "paid_above_items_pct": 0.81
+    }
+  ],
+  "approval_bands": [
+    {
+      "approval_band": "1: <1h",
+      "delivered_orders": 61704,
+      "late_delivery_pct": 6.29,
+      "median_delivery_days": 9.8,
+      "avg_review": 4.167
+    },
+    {
+      "approval_band": "2: 1-24h",
+      "delivered_orders": 17878,
+      "late_delivery_pct": 7.16,
+      "median_delivery_days": 10.4,
+      "avg_review": 4.157
+    },
+    {
+      "approval_band": "3: 24-48h",
+      "delivered_orders": 11893,
+      "late_delivery_pct": 8.09,
+      "median_delivery_days": 11.8,
+      "avg_review": 4.121
+    },
+    {
+      "approval_band": "4: 48h+",
+      "delivered_orders": 4981,
+      "late_delivery_pct": 8.19,
+      "median_delivery_days": 12.3,
+      "avg_review": 4.099
+    }
+  ],
+  "approval_delay_impact": {
+    "n_delivered_orders": 96189,
+    "odds_ratio_per_approval_day": 1.1471,
+    "odds_ratio_95ci": [
+      1.1172,
+      1.1778
+    ],
+    "p_value": 2.358859006989047e-24,
+    "ame_late_pp_per_approval_day": 0.797,
+    "ame_95ci_pp": [
+      0.644,
+      0.951
+    ],
+    "review_points_lost_when_late": -1.962,
+    "review_late_95ci": [
+      -2.002,
+      -1.922
+    ],
+    "controls": "customer state, purchase month, top-30 category, log item price, freight ratio, items, promised days",
+    "design_note": "Observational; approval delay is mostly driven by payment method (boleto), so this is an association conditional on controls, not a randomized effect."
+  },
+  "late_risk_model": {
+    "without_payment_features_auc": 0.6201,
+    "with_payment_features_auc": 0.6182,
+    "auc_gain": -0.0019,
+    "auc_gain_95ci": [
+      -0.0094,
+      0.0074
+    ],
+    "train_orders": 76951,
+    "test_orders": 19238,
+    "test_late_rate_pct": 3.5,
+    "split": "time-ordered 80/20 by purchase timestamp"
+  },
+  "promise_simulation": {
+    "boleto_median_promised_days": 23.33,
+    "non_boleto_median_promised_days": 23.19,
+    "boleto_median_approval_hours": 29.06,
+    "boleto_delivered_orders": 19126,
+    "boleto_late_orders_now": 1404,
+    "scenarios": [
+      {
+        "pad_days": 1,
+        "boleto_late_orders": 1236,
+        "late_flags_avoided": 168,
+        "boleto_late_pct": 6.46
+      },
+      {
+        "pad_days": 2,
+        "boleto_late_orders": 1114,
+        "late_flags_avoided": 290,
+        "boleto_late_pct": 5.82
+      }
+    ],
+    "boleto_late_pct_now": 7.34,
+    "non_boleto_late_pct": 6.65,
+    "caveat": "Relabels lateness against a longer promise; it does not model whether a longer promise lowers conversion, so it sizes the expectation gap, not a forecast of review gains."
+  }
+}

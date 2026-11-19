@@ -1,0 +1,568 @@
+seller_id,peer_category,seller_state,orders,delivered_orders,gmv_brl,aov_brl,boleto_share_pct,card_4plus_installment_pct,median_approval_hours,boleto_median_approval_hours,failed_orders,late_orders,failed_pct,late_pct,boleto_late_pct,boleto_late_within_1day,avg_review,peer_n,peer_median_late_pct,peer_median_failed_pct,peer_median_card_4plus_installment_pct,peer_median_aov_brl,peer_median_avg_review,peer_p75_late_pct,peer_p75_failed_pct,peer_p25_installment_pct,recommendations,n_flags
+1f50f920176fa81dab994f9023523100,garden_tools,SP,1380,1375,140185.08,101.58,27.0,31.5,0.45,32.2,1,124,0.07,9.02,9.7,6,4.164,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,Late delivery 9.0% vs category median 4.2%: review handling/carrier SLAs. | 6 boleto orders missed the promise by <=1 day: add boleto clearing time (median 32h boleto approval for this seller) to the delivery promise.,2
+8160255418d5aaa7dbdc9f4c64ebda44,bed_bath_table,SP,378,373,56371.65,149.13,16.7,59.2,0.37,29.3,0,51,0.0,13.67,19.05,3,3.965,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 13.7% vs category median 6.7%: review handling/carrier SLAs. | 3 boleto orders missed the promise by <=1 day: add boleto clearing time (median 29h boleto approval for this seller) to the delivery promise.,2
+c3867b4666c7d76867627c2f7fb22e21,sports_leisure,SP,238,221,41399.93,173.95,14.7,33.3,0.3,29.7,5,25,2.1,11.31,18.18,0,3.92,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 11.3% vs category median 6.1%: review handling/carrier SLAs. | Canceled/unavailable 2.1% vs category median 0.0%: check stock sync before payment capture.,2
+88460e8ebdecbfecb5f9601833981930,computers_accessories,PR,234,232,35947.65,153.62,17.9,10.8,0.38,18.8,1,42,0.43,18.1,17.07,0,3.47,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 18.1% vs category median 4.1%: review handling/carrier SLAs. | Only 11% of card orders use 4+ installments vs category median 22% despite above-median ticket: test longer installment offers.,2
+6fd52c528dcb38be2eea044946b811f8,bed_bath_table,SP,67,67,8881.58,132.56,16.4,30.6,0.3,18.4,0,9,0.0,13.43,9.09,0,3.394,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 13.4% vs category median 6.7%: review handling/carrier SLAs. | Only 31% of card orders use 4+ installments vs category median 49% despite above-median ticket: test longer installment offers.,2
+ff1fb4c404b2efe68b03350a8dc24122,toys,SP,45,45,7699.06,171.09,15.6,13.5,0.41,29.9,0,6,0.0,13.33,14.29,0,4.067,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,Late delivery 13.3% vs category median 4.6%: review handling/carrier SLAs. | Only 14% of card orders use 4+ installments vs category median 37% despite above-median ticket: test longer installment offers.,2
+7d76b645482be4a332374e8223836592,telephony,SP,173,169,6320.63,36.54,19.7,14.1,0.49,28.1,0,16,0.0,9.47,17.65,3,3.971,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,Late delivery 9.5% vs category median 4.9%: review handling/carrier SLAs. | 3 boleto orders missed the promise by <=1 day: add boleto clearing time (median 28h boleto approval for this seller) to the delivery promise.,2
+3c03b12bab54d8b37d79d914bfdb1aa0,sports_leisure,RJ,37,37,5181.67,140.05,18.9,17.9,0.31,36.2,0,6,0.0,16.22,0.0,0,3.833,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 16.2% vs category median 6.1%: review handling/carrier SLAs. | Only 18% of card orders use 4+ installments vs category median 27% despite above-median ticket: test longer installment offers.,2
+da8622b14eb17ae2831f4ac5b9dab84a,bed_bath_table,SP,1297,1294,184653.89,142.37,22.1,48.7,0.32,29.4,0,87,0.0,6.72,9.41,5,4.19,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,5 boleto orders missed the promise by <=1 day: add boleto clearing time (median 29h boleto approval for this seller) to the delivery promise.,1
+1025f0e2d44d7041d6cf58b6550e0bfa,furniture_decor,SP,898,893,172518.04,192.11,20.3,43.1,0.42,28.0,0,72,0.0,8.06,13.26,4,4.009,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,4 boleto orders missed the promise by <=1 day: add boleto clearing time (median 28h boleto approval for this seller) to the delivery promise.,1
+6560211a19b47992c3666cc44a7e94c0,watches_gifts,SP,1836,1801,150981.88,82.23,20.6,30.8,0.34,28.0,7,95,0.38,5.27,4.3,0,3.948,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Canceled/unavailable 0.4% vs category median 0.0%: check stock sync before payment capture.,1
+46dc3b2cc0980fb8ec44634e21d2718e,toys,RJ,520,502,140079.68,269.38,12.3,53.6,0.28,19.9,3,29,0.58,5.77,9.84,3,4.2,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,3 boleto orders missed the promise by <=1 day: add boleto clearing time (median 20h boleto approval for this seller) to the delivery promise.,1
+cc419e0650a3c5ba77189a1882b7556a,health_beauty,SP,1702,1647,129629.59,76.16,22.0,35.3,0.33,28.2,9,87,0.53,5.28,3.06,1,4.076,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Canceled/unavailable 0.5% vs category median 0.0%: check stock sync before payment capture.,1
+620c87c171fb2a6dd6e8bb4dec959fc6,health_beauty,RJ,736,718,128512.04,174.61,12.2,50.7,0.3,29.1,8,63,1.09,8.75,9.09,0,4.258,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Canceled/unavailable 1.1% vs category median 0.0%: check stock sync before payment capture.,1
+5dceca129747e92ff8ef7a997dc4f8ca,luggage_accessories,SP,323,320,126210.1,390.74,19.2,65.6,0.33,32.2,1,18,0.31,5.63,4.84,0,3.994,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,Late delivery 5.6% vs category median 2.6%: review handling/carrier SLAs.,1
+7d13fca15225358621be4086e1eb0964,watches_gifts,SP,563,556,123025.93,218.52,13.0,58.6,0.38,29.6,0,64,0.0,11.51,18.06,1,4.029,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Late delivery 11.5% vs category median 6.0%: review handling/carrier SLAs.,1
+f7ba60f8c3f99e7ee4042fdef03b70c4,health_beauty,SP,217,216,72927.79,336.07,16.1,69.4,0.49,31.4,0,30,0.0,13.89,14.29,1,4.235,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 13.9% vs category median 6.2%: review handling/carrier SLAs.,1
+fe2032dab1a61af8794248c8196565c9,perfumery,SP,292,291,70675.82,242.04,12.7,66.4,0.3,29.9,0,26,0.0,8.93,10.81,0,4.396,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,Late delivery 8.9% vs category median 5.9%: review handling/carrier SLAs.,1
+522620dcb18a6b31cd7bdf73665113a9,consoles_games,PR,174,172,61920.07,355.86,18.4,52.6,0.33,18.8,0,15,0.0,8.72,6.25,0,3.888,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,Late delivery 8.7% vs category median 4.5%: review handling/carrier SLAs.,1
+c826c40d7b19f62a09e2d7c5e7295ee2,sports_leisure,SP,354,346,51303.16,144.92,21.8,16.5,0.35,28.5,0,26,0.0,7.51,4.0,0,4.08,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Only 16% of card orders use 4+ installments vs category median 27% despite above-median ticket: test longer installment offers.,1
+06a2c3af7b3aee5d69171b0e14f0ee87,health_beauty,MA,391,388,48454.36,123.92,18.7,40.8,0.37,28.7,0,74,0.0,19.07,11.27,0,3.995,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 19.1% vs category median 6.2%: review handling/carrier SLAs.,1
+b33e7c55446eabf8fe1a42d037ac7d6d,watches_gifts,SP,150,147,47507.25,316.71,11.3,69.2,0.37,20.3,0,17,0.0,11.56,18.75,0,4.187,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Late delivery 11.6% vs category median 6.0%: review handling/carrier SLAs.,1
+712e6ed8aa4aa1fa65dab41fed5737e4,auto,SC,79,77,46704.13,591.19,17.7,88.9,0.44,37.9,0,16,0.0,20.78,35.71,0,3.385,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,Late delivery 20.8% vs category median 6.2%: review handling/carrier SLAs.,1
+2eb70248d66e0e3ef83659f71b244378,watches_gifts,SP,201,186,45779.9,227.76,16.4,46.6,0.42,27.6,0,21,0.0,11.29,10.0,0,2.683,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Late delivery 11.3% vs category median 6.0%: review handling/carrier SLAs.,1
+1835b56ce799e6a4dc4eddc053f04066,bed_bath_table,SP,406,400,43283.81,106.61,18.0,30.9,0.37,30.2,0,43,0.0,10.75,9.59,1,3.669,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 10.8% vs category median 6.7%: review handling/carrier SLAs.,1
+855668e0971d4dfd7bef1b6a4133b41b,baby,SP,309,297,39836.31,128.92,17.5,39.0,0.31,28.1,2,38,0.65,12.79,12.24,0,3.789,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,Late delivery 12.8% vs category median 5.8%: review handling/carrier SLAs.,1
+76d5af76d0271110f9af36c92573f765,sports_leisure,SP,129,126,37485.54,290.59,18.6,47.9,0.33,30.2,0,12,0.0,9.52,4.17,0,4.133,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 9.5% vs category median 6.1%: review handling/carrier SLAs.,1
+70a12e78e608ac31179aea7f8422044b,computers_accessories,SP,314,311,36559.88,116.43,21.0,33.2,0.3,29.4,0,29,0.0,9.32,12.31,0,3.798,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 9.3% vs category median 4.1%: review handling/carrier SLAs.,1
+9c0e69c7bf2619675bbadf47b43f655a,computers_accessories,SP,147,142,36170.32,246.06,27.9,33.0,0.3,36.7,1,13,0.68,9.15,10.26,2,4.137,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 9.2% vs category median 4.1%: review handling/carrier SLAs.,1
+59b22a78efb79a4797979612b885db36,housewares,MG,123,123,31975.71,259.97,22.8,53.3,0.44,30.9,0,14,0.0,11.38,21.43,0,4.0,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 11.4% vs category median 4.5%: review handling/carrier SLAs.,1
+900ba814c251a692506d7834c1218441,health_beauty,SP,88,86,31743.73,360.72,19.3,76.5,0.76,28.6,0,12,0.0,13.95,5.88,0,4.188,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 13.9% vs category median 6.2%: review handling/carrier SLAs.,1
+1900267e848ceeba8fa32d80c1a5f5a8,bed_bath_table,SP,370,365,30924.57,83.58,20.5,36.7,0.35,25.1,0,33,0.0,9.04,6.76,3,3.916,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,3 boleto orders missed the promise by <=1 day: add boleto clearing time (median 25h boleto approval for this seller) to the delivery promise.,1
+d2374cbcbb3ca4ab1086534108cc3ab7,bed_bath_table,SP,509,499,30795.27,60.5,20.0,26.5,0.29,28.4,1,27,0.2,5.41,5.94,3,3.81,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,3 boleto orders missed the promise by <=1 day: add boleto clearing time (median 28h boleto approval for this seller) to the delivery promise.,1
+7e1fb0a3ebfb01ffb3a7dae98bf3238d,health_beauty,SP,159,155,30447.6,191.49,23.3,41.9,0.31,30.9,2,18,1.26,11.61,5.41,0,4.159,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 11.6% vs category median 6.2%: review handling/carrier SLAs.,1
+897060da8b9a21f655304d50fd935913,computers_accessories,SP,313,300,30310.0,96.84,31.9,15.4,0.43,27.3,1,32,0.32,10.67,13.83,0,3.639,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 10.7% vs category median 4.1%: review handling/carrier SLAs.,1
+a416b6a846a11724393025641d4edd5e,health_beauty,SP,162,157,28670.52,176.98,13.0,52.6,0.33,24.6,5,17,3.09,10.83,5.0,0,4.154,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Canceled/unavailable 3.1% vs category median 0.0%: check stock sync before payment capture.,1
+7ad32824caee82087b3e2e5f33b1bf32,bed_bath_table,SP,148,144,26094.73,176.32,10.8,54.8,0.38,26.5,0,19,0.0,13.19,20.0,0,3.876,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 13.2% vs category median 6.7%: review handling/carrier SLAs.,1
+8f2ce03f928b567e3d56181ae20ae952,sports_leisure,SP,153,151,25550.01,166.99,30.7,23.2,0.58,31.5,0,19,0.0,12.58,12.77,0,4.105,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 12.6% vs category median 6.1%: review handling/carrier SLAs.,1
+729f06993dac8e860d4f02d7088ca48a,housewares,SP,94,92,25462.33,270.88,18.1,56.8,0.31,30.2,0,9,0.0,9.78,11.76,0,4.151,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 9.8% vs category median 4.5%: review handling/carrier SLAs.,1
+612170e34b97004b3ba37eae81836b4c,watches_gifts,RS,106,106,25241.64,238.13,12.3,36.5,0.27,20.8,0,1,0.0,0.94,0.0,0,4.434,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Only 36% of card orders use 4+ installments vs category median 59% despite above-median ticket: test longer installment offers.,1
+7aa4334be125fcdd2ba64b3180029f14,toys,SP,217,214,20807.94,95.89,21.7,34.6,0.31,32.9,0,25,0.0,11.68,13.04,1,4.102,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,Late delivery 11.7% vs category median 4.6%: review handling/carrier SLAs.,1
+cd68562d3f44870c08922d380acae552,sports_leisure,SP,125,122,20777.19,166.22,20.0,33.7,0.32,27.7,1,19,0.8,15.57,8.33,0,3.944,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 15.6% vs category median 6.1%: review handling/carrier SLAs.,1
+4c2b230173bb36f9b240f2b8ac11786e,sports_leisure,SP,258,255,18938.84,73.41,34.5,4.9,0.4,30.5,0,24,0.0,9.41,10.34,1,3.98,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 9.4% vs category median 6.1%: review handling/carrier SLAs.,1
+a888faf2d1baececa6baf9c3d603ee1f,perfumery,PR,54,53,18887.32,349.77,9.3,81.6,0.23,14.4,0,5,0.0,9.43,20.0,0,4.037,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,Late delivery 9.4% vs category median 5.9%: review handling/carrier SLAs.,1
+abe42c5d03695b4257b5c6cbf4e6784e,health_beauty,RJ,50,49,18158.23,363.16,6.0,72.3,0.31,33.2,0,8,0.0,16.33,0.0,0,3.918,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 16.3% vs category median 6.2%: review handling/carrier SLAs.,1
+ce248b21cb2adc36282ede306b7660e5,musical_instruments,SC,65,64,17515.08,269.46,29.2,43.2,1.38,29.0,1,5,1.54,7.81,10.53,0,4.185,6,6.3,0.0,54.45,380.205,4.2780000000000005,7.6274999999999995,1.155,43.5,Late delivery 7.8% vs category median 6.3%: review handling/carrier SLAs.,1
+8e6d7754bc7e0f22c96d255ebda59eba,computers_accessories,SP,83,82,17219.66,207.47,30.1,16.4,0.47,17.1,0,11,0.0,13.41,20.83,1,3.584,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 13.4% vs category median 4.1%: review handling/carrier SLAs.,1
+e5a38146df062edaf55c38afa99e42dc,housewares,SP,120,119,17208.23,143.4,22.5,44.4,0.41,34.9,0,9,0.0,7.56,7.41,0,3.975,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 7.6% vs category median 4.5%: review handling/carrier SLAs.,1
+75d34ebb1bd0bd7dde40dd507b8169c3,telephony,BA,62,57,16479.51,265.8,25.8,58.5,0.28,15.1,1,7,1.61,12.28,7.14,0,3.742,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,Late delivery 12.3% vs category median 4.9%: review handling/carrier SLAs.,1
+a673821011d0cec28146ea42f5ab767f,bed_bath_table,SP,126,122,16402.18,130.18,15.1,48.5,0.38,25.5,2,13,1.59,10.66,5.56,0,4.045,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 10.7% vs category median 6.7%: review handling/carrier SLAs.,1
+6039e27294dc75811c0d8a39069f52c0,electronics,SP,64,63,16090.3,251.41,32.8,46.3,0.51,27.2,0,11,0.0,17.46,19.05,0,3.688,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,Late delivery 17.5% vs category median 7.3%: review handling/carrier SLAs.,1
+cfb1a033743668a192316f3c6d1d2671,bed_bath_table,SP,137,133,15846.55,115.67,14.6,48.6,0.29,34.0,1,14,0.73,10.53,5.0,1,4.092,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 10.5% vs category median 6.7%: review handling/carrier SLAs.,1
+440dd6ab244315c632130ecfb63827b1,sports_leisure,SP,94,91,15839.1,168.5,16.0,47.2,0.45,16.0,1,12,1.06,13.19,13.33,0,3.849,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 13.2% vs category median 6.1%: review handling/carrier SLAs.,1
+05f51e13da97139648b8125c31e5f51b,baby,MG,60,57,15788.3,263.14,15.0,49.0,0.26,13.7,0,9,0.0,15.79,22.22,0,4.067,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,Late delivery 15.8% vs category median 5.8%: review handling/carrier SLAs.,1
+ce7d1888639e6fb06b2749cbfdac1ff7,housewares,MG,78,78,15478.29,198.44,14.1,49.2,0.36,21.1,0,7,0.0,8.97,9.09,0,4.167,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 9.0% vs category median 4.5%: review handling/carrier SLAs.,1
+1ca7077d890b907f89be8c954a02686a,telephony,SP,115,108,15106.93,131.36,14.8,35.2,0.32,17.3,0,18,0.0,16.67,13.33,0,2.333,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,Late delivery 16.7% vs category median 4.9%: review handling/carrier SLAs.,1
+431af27f296bc6519d890aa5a05fdb11,health_beauty,SP,116,115,15064.31,129.86,12.9,45.9,0.27,32.1,0,16,0.0,13.91,26.67,0,3.791,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 13.9% vs category median 6.2%: review handling/carrier SLAs.,1
+0b35c634521043bf4b47e21547b99ab5,construction_tools_construction,PR,47,46,15058.45,320.39,17.0,76.3,0.38,28.9,0,8,0.0,17.39,12.5,0,3.435,6,5.67,0.0,58.35,257.15999999999997,4.093500000000001,9.362499999999999,0.0,30.125,Late delivery 17.4% vs category median 5.7%: review handling/carrier SLAs.,1
+00fc707aaaad2d31347cf883cd2dfe10,computers_accessories,PR,101,101,15013.92,148.65,27.7,12.5,0.38,32.5,0,4,0.0,3.96,0.0,0,4.095,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Only 12% of card orders use 4+ installments vs category median 22% despite above-median ticket: test longer installment offers.,1
+e8b3a3a38279a82f0e5d006d5e5b7d2c,consoles_games,PR,87,80,14990.9,172.31,20.7,21.9,0.32,16.1,0,3,0.0,3.75,0.0,0,3.793,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,Only 22% of card orders use 4+ installments vs category median 50% despite above-median ticket: test longer installment offers.,1
+ef506c96320abeedfb894c34db06f478,telephony,SP,320,312,14942.86,46.7,25.9,32.9,0.35,30.0,1,25,0.31,8.01,15.85,4,3.953,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,4 boleto orders missed the promise by <=1 day: add boleto clearing time (median 30h boleto approval for this seller) to the delivery promise.,1
+99eaacc9e6046db1c82b163c5f84869f,telephony,SP,66,63,14274.52,216.28,30.3,40.9,0.5,35.9,1,7,1.52,11.11,10.53,0,3.879,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,Late delivery 11.1% vs category median 4.9%: review handling/carrier SLAs.,1
+adbc26658d6c7b4b6219f9d934598091,baby,PR,88,88,13856.08,157.46,13.6,40.0,0.34,33.3,0,12,0.0,13.64,0.0,0,4.125,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,Late delivery 13.6% vs category median 5.8%: review handling/carrier SLAs.,1
+c60b801f2d52c7f7f91de00870882a75,watches_gifts,SP,40,38,13767.44,344.19,15.0,60.0,0.46,26.7,0,6,0.0,15.79,20.0,0,3.325,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Late delivery 15.8% vs category median 6.0%: review handling/carrier SLAs.,1
+056b4ada5bbc2c50cc7842547dda6b51,watches_gifts,RJ,65,64,13639.41,209.84,4.6,77.0,0.37,37.2,0,7,0.0,10.94,0.0,0,4.172,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Late delivery 10.9% vs category median 6.0%: review handling/carrier SLAs.,1
+54965bbe3e4f07ae045b90b0b8541f52,bed_bath_table,PR,78,73,13531.06,173.48,17.9,57.6,0.55,18.3,0,22,0.0,30.14,14.29,0,3.0,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 30.1% vs category median 6.7%: review handling/carrier SLAs.,1
+6973a06f484aacf400ece213dbf3d946,computers_accessories,SP,89,83,13119.12,147.41,21.3,15.2,0.31,17.9,3,13,3.37,15.66,11.11,0,3.659,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 15.7% vs category median 4.1%: review handling/carrier SLAs.,1
+66e0557ecc2b4dbea057e93f215f68d8,consoles_games,SP,31,30,12977.99,418.64,19.4,87.0,0.29,22.5,1,6,3.23,20.0,0.0,0,3.935,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,Late delivery 20.0% vs category median 4.5%: review handling/carrier SLAs.,1
+b499c00f28f4b7069ff6550af8c1348a,furniture_decor,SP,149,144,12891.96,86.52,21.5,25.5,0.33,27.9,0,19,0.0,13.19,10.0,0,4.154,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 13.2% vs category median 6.1%: review handling/carrier SLAs.,1
+fffd5413c0700ac820c7069d66d98c89,housewares,SP,59,56,12077.21,204.7,13.6,46.0,0.36,26.6,1,7,1.69,12.5,12.5,0,3.862,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 12.5% vs category median 4.5%: review handling/carrier SLAs.,1
+5343d0649eca2a983820bfe93fc4d17e,furniture_decor,SP,67,66,12074.95,180.22,17.9,32.7,0.36,17.0,1,7,1.49,10.61,8.33,0,3.97,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 10.6% vs category median 6.1%: review handling/carrier SLAs.,1
+8b28d096634035667e8263d57ba3368c,health_beauty,SP,141,137,11946.63,84.73,22.0,33.3,0.29,29.9,1,15,0.71,10.95,3.23,0,4.007,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 10.9% vs category median 6.2%: review handling/carrier SLAs.,1
+dd7ddc04e1b6c2c614352b383efe2d36,pet_shop,SP,118,117,11938.59,101.17,23.7,24.4,0.37,29.2,0,15,0.0,12.82,18.52,0,3.88,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,Late delivery 12.8% vs category median 6.9%: review handling/carrier SLAs.,1
+3db66a856d18a9cba7c9241fc5221c50,sports_leisure,MG,94,94,11561.92,123.0,16.0,38.9,0.35,30.0,0,10,0.0,10.64,6.67,0,4.191,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 10.6% vs category median 6.1%: review handling/carrier SLAs.,1
+ea566164622c6b439516ab18062c42cd,health_beauty,SP,50,50,11167.98,223.36,12.0,28.2,0.31,26.0,0,9,0.0,18.0,33.33,0,3.78,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 18.0% vs category median 6.2%: review handling/carrier SLAs.,1
+e5a3438891c0bfdb9394643f95273d8e,fashion_bags_accessories,SP,221,213,11028.05,49.9,27.1,14.5,0.37,29.4,1,34,0.45,15.96,13.56,1,3.95,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,Late delivery 16.0% vs category median 2.8%: review handling/carrier SLAs.,1
+18a349e75d307f4b4cc646a691ed4216,telephony,SP,119,107,10729.34,90.16,30.3,5.3,0.57,31.7,2,6,1.68,5.61,0.0,0,3.483,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,Only 5% of card orders use 4+ installments vs category median 33% despite above-median ticket: test longer installment offers.,1
+a49928bcdf77c55c6d6e05e09a9b4ca5,toys,SP,98,96,10664.58,108.82,18.4,32.0,0.29,30.6,0,21,0.0,21.88,23.53,0,3.01,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,Late delivery 21.9% vs category median 4.6%: review handling/carrier SLAs.,1
+972d0f9cf61b499a4812cf0bfa3ad3c4,bed_bath_table,SC,82,80,10615.59,129.46,13.4,56.3,0.36,36.8,0,9,0.0,11.25,0.0,0,3.026,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 11.2% vs category median 6.7%: review handling/carrier SLAs.,1
+b1fc4f64df5a0e8b6913ab38803c57a9,watches_gifts,RJ,106,106,10438.69,98.48,20.8,46.9,0.31,32.3,0,13,0.0,12.26,22.73,2,3.846,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,Late delivery 12.3% vs category median 6.0%: review handling/carrier SLAs.,1
+e96498ed8daaa3e9c23f7a62da76591c,auto,SP,34,34,10332.19,303.89,20.6,50.0,0.44,21.0,0,5,0.0,14.71,0.0,0,3.941,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,Late delivery 14.7% vs category median 6.2%: review handling/carrier SLAs.,1
+8e8a7ce9f2f970dc00e2acf6f6e199f6,computers_accessories,RJ,65,63,10284.82,158.23,18.5,8.0,0.31,22.9,0,4,0.0,6.35,0.0,0,4.016,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Only 8% of card orders use 4+ installments vs category median 22% despite above-median ticket: test longer installment offers.,1
+2089a6d640999f9b9141ac719b2af596,sports_leisure,SP,44,41,9604.54,218.29,22.7,53.1,0.25,28.6,1,5,2.27,12.2,0.0,0,3.727,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 12.2% vs category median 6.1%: review handling/carrier SLAs.,1
+aac29b1b99776be73c3049939652091d,cool_stuff,MG,97,93,9589.84,98.86,16.5,41.0,0.24,27.8,0,9,0.0,9.68,18.75,0,4.095,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,Late delivery 9.7% vs category median 6.1%: review handling/carrier SLAs.,1
+b18dc380845b24038cfc48006478f099,health_beauty,SP,44,43,9248.93,210.2,15.9,69.4,0.54,33.9,0,5,0.0,11.63,0.0,0,4.14,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 11.6% vs category median 6.2%: review handling/carrier SLAs.,1
+ad781527c93d00d89a11eecd9dcad7c1,baby,SP,42,36,9171.26,218.36,14.3,63.9,0.3,34.4,1,12,2.38,33.33,50.0,0,3.0,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,Late delivery 33.3% vs category median 5.8%: review handling/carrier SLAs.,1
+e2aee0892199b1d92530e371abd825bf,sports_leisure,PR,38,36,8993.71,236.68,21.1,46.4,0.47,22.0,1,5,2.63,13.89,12.5,0,3.789,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 13.9% vs category median 6.1%: review handling/carrier SLAs.,1
+903037660cf848a717166eb7a06d616e,garden_tools,SP,43,42,8981.79,208.88,20.9,43.3,1.03,29.3,0,5,0.0,11.9,0.0,0,3.86,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,Late delivery 11.9% vs category median 4.2%: review handling/carrier SLAs.,1
+5d0363b33554b373851fc1622e4d5f3c,auto,SP,94,93,8980.4,95.54,12.8,24.7,0.33,24.3,0,8,0.0,8.6,16.67,0,4.043,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,Late delivery 8.6% vs category median 6.2%: review handling/carrier SLAs.,1
+8648b1e89e9b349e32d3741b30ec737e,construction_tools_construction,SP,94,92,8933.74,95.04,12.8,7.5,0.31,20.0,0,9,0.0,9.78,0.0,0,4.085,6,5.67,0.0,58.35,257.15999999999997,4.093500000000001,9.362499999999999,0.0,30.125,Late delivery 9.8% vs category median 5.7%: review handling/carrier SLAs.,1
+2c9e548be18521d1c43cde1c582c6de8,stationery,SP,126,124,8680.39,68.89,23.0,12.1,0.39,28.4,0,19,0.0,15.32,10.34,0,4.113,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,Late delivery 15.3% vs category median 6.6%: review handling/carrier SLAs.,1
+b14db04aa7881970e83ffa9426897925,furniture_decor,SP,83,78,8424.27,101.5,19.3,42.2,0.28,35.0,0,8,0.0,10.26,7.14,0,3.713,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 10.3% vs category median 6.1%: review handling/carrier SLAs.,1
+34056b8b55c1775a22af2331670a799c,auto,SP,78,77,8229.89,105.51,33.3,7.8,0.81,28.8,0,9,0.0,11.69,11.54,1,4.0,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,Late delivery 11.7% vs category median 6.2%: review handling/carrier SLAs.,1
+cee48807215b30a12ca2ca10ffb5f250,auto,SP,38,38,8086.27,212.8,18.4,40.0,0.58,17.8,0,5,0.0,13.16,28.57,1,3.816,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,Late delivery 13.2% vs category median 6.2%: review handling/carrier SLAs.,1
+dd55f1bb788714a40e7954c3be6df745,cool_stuff,SP,35,35,7701.18,220.03,17.1,46.4,0.65,42.9,0,6,0.0,17.14,16.67,0,3.743,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,Late delivery 17.1% vs category median 6.1%: review handling/carrier SLAs.,1
+f46490624488d3ff7ce78613913a7711,health_beauty,SP,83,80,7550.67,90.97,25.3,25.5,0.54,30.7,0,9,0.0,11.25,15.0,0,3.663,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 11.2% vs category median 6.2%: review handling/carrier SLAs.,1
+2a261b5b644fa05f4f2700eb93544f2c,furniture_decor,SP,49,49,7407.94,151.18,26.5,33.3,0.51,26.8,0,8,0.0,16.33,15.38,0,3.898,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 16.3% vs category median 6.1%: review handling/carrier SLAs.,1
+02f623a8eb246f3c5f7c2f96462654e6,sports_leisure,SP,44,44,7207.63,163.81,22.7,16.1,0.3,31.1,0,3,0.0,6.82,0.0,0,4.558,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Only 16% of card orders use 4+ installments vs category median 27% despite above-median ticket: test longer installment offers.,1
+3be634553519fb6536a03e1358e9fdc7,housewares,SP,82,79,7161.14,87.33,14.6,30.2,0.28,23.4,0,6,0.0,7.59,8.33,0,3.988,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 7.6% vs category median 4.5%: review handling/carrier SLAs.,1
+b2479f944e1b90cf8a5de1bbfde284d6,bed_bath_table,SP,101,99,7017.22,69.48,16.8,22.7,0.36,32.4,1,12,0.99,12.12,6.25,0,3.42,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 12.1% vs category median 6.7%: review handling/carrier SLAs.,1
+50c9975695009e5e6473912e83a6d1da,sports_leisure,MG,50,50,6954.14,139.08,26.0,30.6,0.34,21.6,0,7,0.0,14.0,15.38,1,3.939,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 14.0% vs category median 6.1%: review handling/carrier SLAs.,1
+e9d99831abad74458942f21e16f33f92,computers_accessories,SP,129,129,6878.96,53.33,24.0,10.9,0.35,27.6,0,13,0.0,10.08,16.13,0,3.945,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 10.1% vs category median 4.1%: review handling/carrier SLAs.,1
+0bf0150d5b9d60d9cd2906003332f085,furniture_decor,SP,39,39,6872.35,176.21,23.1,42.9,0.69,32.2,0,6,0.0,15.38,33.33,0,3.789,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 15.4% vs category median 6.1%: review handling/carrier SLAs.,1
+0d85bbda9889ce1f7e63778d24f346eb,stationery,MG,51,51,6469.7,126.86,25.5,45.9,0.3,38.1,0,6,0.0,11.76,0.0,0,4.2,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,Late delivery 11.8% vs category median 6.6%: review handling/carrier SLAs.,1
+23c38debaffe4a25a30fdbd9b586a13f,garden_tools,SP,41,41,6337.68,154.58,24.4,39.3,0.54,16.5,0,5,0.0,12.2,30.0,1,4.317,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,Late delivery 12.2% vs category median 4.2%: review handling/carrier SLAs.,1
+835f0f7810c76831d6c7d24c7a646d4d,housewares,SP,43,41,6006.21,139.68,4.7,57.9,0.25,11.5,1,11,2.33,26.83,100.0,0,3.395,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 26.8% vs category median 4.5%: review handling/carrier SLAs.,1
+bbad7e518d7af88a0897397ffdca1979,baby,SP,67,66,5839.82,87.16,22.4,19.6,0.3,30.5,0,11,0.0,16.67,6.67,1,3.227,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,Late delivery 16.7% vs category median 5.8%: review handling/carrier SLAs.,1
+b561927807645834b59ef0d16ba55a24,stationery,SP,83,83,5735.49,69.1,18.1,11.5,0.33,23.9,0,12,0.0,14.46,6.67,0,4.325,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,Late delivery 14.5% vs category median 6.6%: review handling/carrier SLAs.,1
+cac4c8e7b1ca6252d8f20b2fc1a2e4af,furniture_decor,SP,72,71,5728.28,79.56,23.6,27.1,0.36,17.6,0,13,0.0,18.31,29.41,0,3.613,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 18.3% vs category median 6.1%: review handling/carrier SLAs.,1
+11bfa66332777660bd0640ee84d47006,health_beauty,SP,76,76,5608.54,73.8,25.0,16.7,0.4,34.0,0,11,0.0,14.47,5.26,0,3.895,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 14.5% vs category median 6.2%: review handling/carrier SLAs.,1
+891071be6ba827b591264c90c2ae8a63,fashion_bags_accessories,SP,91,84,5432.29,59.7,30.8,19.6,0.59,31.2,1,12,1.1,14.29,18.52,1,3.802,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,Late delivery 14.3% vs category median 2.8%: review handling/carrier SLAs.,1
+834f8533b2ecb6598dd004ff3de7203a,pet_shop,SP,42,40,5431.52,129.32,19.0,29.0,0.28,40.3,0,6,0.0,15.0,0.0,0,3.786,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,Late delivery 15.0% vs category median 6.9%: review handling/carrier SLAs.,1
+4c498c7345e89aebad651544829beca0,health_beauty,SP,46,45,5359.61,116.51,30.4,38.7,0.41,30.2,0,5,0.0,11.11,21.43,0,4.37,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 11.1% vs category median 6.2%: review handling/carrier SLAs.,1
+beadbee30901a7f61d031b6b686095ad,health_beauty,SP,63,63,5259.74,83.49,20.6,28.6,0.33,30.3,0,15,0.0,23.81,23.08,0,3.937,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 23.8% vs category median 6.2%: review handling/carrier SLAs.,1
+99002261c568a84cce14d43fcffb43ea,baby,MT,36,36,5228.65,145.24,11.1,21.9,0.56,35.2,0,2,0.0,5.56,0.0,0,3.722,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,Only 22% of card orders use 4+ installments vs category median 36% despite above-median ticket: test longer installment offers.,1
+b17b679f4f5ce2e03ce6968c62648246,health_beauty,SP,55,50,5160.82,93.83,14.5,50.0,0.29,64.6,2,8,3.64,16.0,0.0,0,3.709,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 16.0% vs category median 6.2%: review handling/carrier SLAs.,1
+6ec1a01e866584bb679eb9b098345919,health_beauty,SP,31,30,5105.05,164.68,29.0,66.7,6.38,19.2,0,6,0.0,20.0,44.44,1,4.133,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 20.0% vs category median 6.2%: review handling/carrier SLAs.,1
+99a54764c341d5dc80b4a8fac4eba3fb,housewares,SP,43,42,4996.23,116.19,9.3,40.6,0.44,49.1,0,5,0.0,11.9,0.0,0,3.595,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 11.9% vs category median 4.5%: review handling/carrier SLAs.,1
+ef990a83bbea832f36ebe81376335aa8,sports_leisure,SC,40,40,4995.37,124.88,27.5,24.1,0.49,30.6,0,9,0.0,22.5,27.27,0,3.75,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 22.5% vs category median 6.1%: review handling/carrier SLAs.,1
+d20b021d3efdf267a402c402a48ea64b,furniture_decor,SP,78,74,4985.4,63.92,17.9,21.7,0.31,23.9,1,14,1.28,18.92,0.0,0,3.766,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 18.9% vs category median 6.1%: review handling/carrier SLAs.,1
+ec8879960bd2221d5c32f8e12f7da711,computers_accessories,SP,36,35,4881.38,135.59,27.8,21.7,0.29,22.1,0,6,0.0,17.14,10.0,1,4.314,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 17.1% vs category median 4.1%: review handling/carrier SLAs.,1
+6b3bd31ad8fcda4b2635ec9f3ff2ecdf,sports_leisure,RJ,34,33,4690.96,137.97,11.8,14.8,0.35,16.4,0,3,0.0,9.09,25.0,0,4.059,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Only 15% of card orders use 4+ installments vs category median 27% despite above-median ticket: test longer installment offers.,1
+602044f2c16190c2c6e45eb35c2e21cb,bed_bath_table,SP,49,47,4681.71,95.55,16.3,35.0,0.33,46.1,0,8,0.0,17.02,12.5,1,3.167,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,Late delivery 17.0% vs category median 6.7%: review handling/carrier SLAs.,1
+f3da5b2ff499efb8d4a6d371d175d7dd,housewares,SP,77,75,4674.59,60.71,16.9,10.2,0.34,51.9,0,9,0.0,12.0,0.0,0,3.836,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,Late delivery 12.0% vs category median 4.5%: review handling/carrier SLAs.,1
+1eade46fba20122dc4aefb379f8c636b,health_beauty,SP,58,58,4673.71,80.58,20.7,18.6,0.54,29.0,0,7,0.0,12.07,16.67,0,4.431,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,Late delivery 12.1% vs category median 6.2%: review handling/carrier SLAs.,1
+406822777a0b9eb5c50e442dd4cd3ec5,toys,SP,45,44,4596.34,102.14,11.1,19.4,0.33,23.0,0,5,0.0,11.36,0.0,0,4.295,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,Late delivery 11.4% vs category median 4.6%: review handling/carrier SLAs.,1
+070d165398b553f3b4b851c216b8a358,pet_shop,SP,31,30,4469.5,144.18,22.6,17.4,0.46,15.7,0,4,0.0,13.33,14.29,0,3.323,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,Only 17% of card orders use 4+ installments vs category median 27% despite above-median ticket: test longer installment offers.,1
+643214e62b870443ccbe55ab29a4dccf,fashion_bags_accessories,SP,66,65,4199.78,63.63,24.2,15.2,0.36,17.7,0,7,0.0,10.77,6.67,0,4.409,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,Late delivery 10.8% vs category median 2.8%: review handling/carrier SLAs.,1
+71039d19d4303bf9054d69e9a9236699,toys,SP,34,34,4105.15,120.74,26.5,24.0,0.27,30.4,0,7,0.0,20.59,22.22,0,3.882,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,Late delivery 20.6% vs category median 4.6%: review handling/carrier SLAs.,1
+318f287a62ab7ac10b703ac37435a231,sports_leisure,SP,52,51,3634.61,69.9,15.4,23.1,0.25,28.5,0,5,0.0,9.8,12.5,0,3.865,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 9.8% vs category median 6.1%: review handling/carrier SLAs.,1
+2a1348e9addc1af5aaa619b1a3679d6b,furniture_decor,MG,49,45,3523.94,71.92,22.4,25.7,0.25,27.1,1,13,2.04,28.89,30.0,0,3.208,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 28.9% vs category median 6.1%: review handling/carrier SLAs.,1
+3fd1e727ba94cfe122d165e176ce7967,sports_leisure,SP,36,34,3281.8,91.16,11.1,3.6,0.38,30.7,1,7,2.78,20.59,0.0,0,3.833,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,Late delivery 20.6% vs category median 6.1%: review handling/carrier SLAs.,1
+ede0c03645598cdfc63ca8237acbe73d,computers_accessories,SP,46,43,3269.87,71.08,15.2,2.7,0.36,18.1,1,14,2.17,32.56,57.14,0,3.523,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,Late delivery 32.6% vs category median 4.1%: review handling/carrier SLAs.,1
+0ed6ce5d87fd9c69eaacaeb778d67235,electronics,SP,43,42,2829.25,65.8,20.9,15.6,0.34,23.8,0,6,0.0,14.29,0.0,0,4.405,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,Late delivery 14.3% vs category median 7.3%: review handling/carrier SLAs.,1
+002100f778ceb8431b7a1020ff7ab48f,furniture_decor,SP,49,48,1943.44,39.66,38.8,3.8,0.3,33.3,0,9,0.0,18.75,31.58,0,3.939,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,Late delivery 18.8% vs category median 6.1%: review handling/carrier SLAs.,1
+4869f7a5dfa277a7dca6462dcf3b52b2,watches_gifts,SP,1122,1114,247516.03,220.6,15.1,61.0,0.36,26.8,1,118,0.09,10.59,10.65,1,4.153,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+53243585a1d6dc2643021fd1853d8905,telephony,BA,358,348,235856.69,658.82,17.3,65.7,0.4,22.7,0,12,0.0,3.45,6.67,1,4.132,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+4a3ca9315b744ce9f8e9374361493884,bed_bath_table,SP,1755,1721,234222.67,133.46,17.1,59.3,0.31,31.9,2,170,0.11,9.88,13.36,2,3.854,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+fa1c13f2614d7b5c4749cbc52fecda94,watches_gifts,SP,583,576,204953.05,351.55,12.3,68.2,0.29,28.2,1,53,0.17,9.2,5.63,1,4.337,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+7e93a43ef30c4f03f38b393420bc753a,watches_gifts,SP,336,319,183646.91,546.57,10.4,78.2,0.27,28.7,4,15,1.19,4.7,0.0,0,4.215,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+7a67c85e85bb2ce8582c35f2203ad736,cool_stuff,SP,1148,1133,162649.31,141.68,20.2,38.5,0.31,30.5,1,60,0.09,5.3,7.79,2,4.263,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+955fee9216a65b617aa5c0531780ce60,furniture_decor,SP,1281,1255,160383.75,125.2,25.3,27.1,0.45,28.3,1,77,0.08,6.14,7.52,0,4.165,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+a1043bafd471dff536d0c462352beb48,garden_tools,MG,716,700,134017.59,187.18,18.0,36.5,0.38,22.0,3,35,0.42,5.0,3.17,0,4.223,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+3d871de0142ce09b7081e2b9d1733cb1,stationery,SP,1069,1053,117438.83,109.86,15.9,30.7,0.3,31.1,4,58,0.37,5.51,4.17,1,4.168,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+edb1ef5e36e0c8cd84eb3c9b003e486d,health_beauty,RJ,166,165,83453.57,502.73,8.4,55.0,0.33,28.2,0,12,0.0,7.27,14.29,1,4.422,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+ccc4bbb5f32a6ab2b7066a4130f114e3,health_beauty,PR,187,184,79553.58,425.42,17.6,73.3,0.47,29.6,0,12,0.0,6.52,6.25,0,4.285,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+cca3071e3e9bb7d12640c9fbe2301306,furniture_decor,SP,696,683,78893.39,113.35,18.2,46.2,0.26,33.0,1,32,0.14,4.69,3.97,0,3.892,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+8581055ce74af1daba164fdbd55a40de,auto,SP,385,378,74427.64,193.32,18.7,46.5,0.28,29.4,2,31,0.52,8.22,4.35,0,4.266,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+de722cd6dad950a92b7d4f82673f8833,computers_accessories,PE,337,335,64938.87,192.7,30.9,18.3,0.5,29.3,0,12,0.0,3.58,0.96,0,4.31,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+7ddcbb64b5bc1ef36ca8c151f6ec77df,cool_stuff,SP,333,324,63342.03,190.22,18.6,39.2,0.34,18.3,2,27,0.6,8.33,6.56,2,3.962,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+04308b1ee57b6625f47df1d56f00eedf,health_beauty,SC,94,92,63184.99,672.18,13.8,76.9,0.42,29.7,0,7,0.0,7.61,23.08,0,3.883,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+218d46b86c1881d022bce9c68a7d4b15,sports_leisure,SP,382,376,62853.76,164.54,19.6,29.4,0.29,22.0,1,33,0.26,8.78,10.67,0,4.17,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+f8db351d8c4c4c22c6835c19a46f01b0,housewares,SP,657,649,62756.48,95.52,25.4,24.4,0.33,26.7,1,28,0.15,4.31,4.88,0,4.265,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+17e34d8224d27a541263c4c64b11a56b,perfumery,SP,255,247,61822.05,242.44,12.2,54.7,0.28,31.4,2,19,0.78,7.69,10.71,0,4.186,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+37be5a7c751166fbc5f8ccba4119e043,bed_bath_table,SP,272,269,61464.52,225.97,14.7,81.8,0.25,31.6,0,7,0.0,2.6,2.5,0,4.317,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+25c5c91f63607446a97b143d2d535d31,computers_accessories,MG,155,153,60846.39,392.56,41.3,37.9,1.21,29.1,0,11,0.0,7.19,7.94,1,3.877,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+ceaec5548eefc6e23e6607c5435102e7,cool_stuff,SP,203,198,59279.76,292.02,13.8,64.2,0.46,29.1,2,10,0.99,5.05,0.0,0,4.146,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+b2ba3715d723d245138f291a6fe42594,stationery,SP,335,322,58108.59,173.46,21.5,39.6,0.31,20.6,4,22,1.19,6.83,10.0,0,4.105,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+17f51e7198701186712e53a39c564617,health_beauty,SP,56,56,58078.15,1037.11,21.4,93.0,0.48,18.2,0,5,0.0,8.93,8.33,0,4.339,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+f5a590cf36251cf1162ea35bef76fe84,musical_instruments,SP,117,113,57440.94,490.95,20.5,67.4,0.56,34.3,3,8,2.56,7.08,0.0,0,4.231,6,6.3,0.0,54.45,380.205,4.2780000000000005,7.6274999999999995,1.155,43.5,,0
+77530e9772f57a62c906e1c21538ab82,furniture_decor,PR,312,304,54856.39,175.82,20.2,39.3,0.37,30.6,1,29,0.32,9.54,11.29,2,4.126,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+ea8482cd71df3c1969d7b9473ff13abc,telephony,SP,1136,1122,54430.72,47.91,19.7,27.2,0.4,29.1,1,96,0.09,8.56,6.31,0,4.01,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+966cb4760537b1404caedd472cc610a5,watches_gifts,SP,75,67,53442.58,712.57,8.0,83.6,0.5,21.3,0,2,0.0,2.99,16.67,1,3.851,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+4e922959ae960d389249c378d1c939f5,computers_accessories,SP,420,412,53434.15,127.22,21.9,25.8,0.31,30.3,0,37,0.0,8.98,14.29,2,3.954,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+e9779976487b77c6d4ac45f75ec7afe9,sports_leisure,SP,648,636,53051.92,81.87,22.4,13.4,0.35,29.7,1,39,0.15,6.13,5.67,2,4.228,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+4d6d651bd7684af3fffabd5f08d12e5a,sports_leisure,SP,368,362,51742.59,140.6,19.3,23.2,0.35,23.8,1,14,0.27,3.87,1.43,0,4.202,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+2bf6a2c1e71bbd29a4ad64e6d3c3629f,watches_gifts,RJ,30,30,51629.49,1720.98,6.7,88.5,0.33,85.0,0,2,0.0,6.67,0.0,0,4.167,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+c3cfdc648177fdbbbb35635a37472c53,sports_leisure,PR,276,276,49460.91,179.21,13.8,29.6,0.25,16.6,0,4,0.0,1.45,0.0,0,4.495,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+391fc6631aebcf3004804e51b40bcf1e,furniture_decor,SP,505,500,49259.98,97.54,15.8,42.5,0.3,31.8,0,44,0.0,8.8,13.92,1,4.063,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+850f4f8af5ea87287ac68de36e29107f,toys,SP,186,185,48597.65,261.28,15.1,47.4,0.3,29.4,0,9,0.0,4.86,7.14,1,4.311,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+eeb6de78f79159600292e314a77cbd18,garden_tools,SC,83,82,46795.28,563.8,9.6,78.1,0.34,53.8,0,3,0.0,3.66,0.0,0,4.446,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+634964b17796e64304cadf1ad3050fb7,watches_gifts,RJ,265,262,45848.27,173.01,37.0,35.4,1.35,34.2,1,25,0.38,9.54,9.38,2,4.061,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+7142540dd4c91e2237acb7e911c4eba2,auto,SP,319,316,44730.36,140.22,21.9,28.3,0.34,29.8,0,23,0.0,7.28,7.14,1,4.039,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+834f3294fba9f932f56edc879193f925,cool_stuff,SP,66,66,44367.38,672.23,21.2,82.4,1.51,19.3,0,4,0.0,6.06,7.14,0,4.545,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+b839e41795b7f3ad94cc2014a52f6796,construction_tools_construction,SP,33,33,43749.93,1325.76,9.1,79.3,0.66,60.9,0,1,0.0,3.03,0.0,0,4.091,6,5.67,0.0,58.35,257.15999999999997,4.093500000000001,9.362499999999999,0.0,30.125,,0
+dbc22125167c298ef99da25668e1011f,luggage_accessories,MG,400,388,41616.06,104.04,17.3,42.8,0.3,27.8,4,10,1.0,2.58,0.0,0,4.276,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,,0
+7299e27ed73d2ad986de7f7c77d919fa,consoles_games,MG,335,332,41557.95,124.05,22.1,26.0,0.33,24.8,1,14,0.3,4.22,2.74,0,4.421,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,,0
+7178f9f4dd81dcef02f62acdf8151e01,health_beauty,SC,203,202,41478.91,204.33,28.1,45.7,0.56,28.8,0,7,0.0,3.47,1.75,0,4.045,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+c70c1b0d8ca86052f45a432a38b73958,health_beauty,SP,260,259,40458.09,155.61,12.3,37.2,0.36,19.4,0,14,0.0,5.41,6.25,1,4.357,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+53e4c6e0f4312d4d2107a8c9cddf45cd,housewares,SP,466,456,40248.71,86.37,16.5,41.8,0.3,34.1,2,22,0.43,4.82,6.85,0,4.093,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+e9bc59e7b60fc3063eb2290deda4cced,computers_accessories,PR,210,203,38555.76,183.6,26.7,23.8,0.39,35.0,1,16,0.48,7.88,11.11,1,4.029,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+87142160b41353c4e5fca2360caf6f92,computers_accessories,RS,304,304,38392.37,126.29,27.6,33.8,0.4,27.4,0,12,0.0,3.95,4.76,0,4.404,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+0241d4d5d36f10f80c644447315af0bd,furniture_decor,PR,231,231,37923.46,164.17,17.3,51.1,0.44,30.9,0,11,0.0,4.76,2.5,1,4.42,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+1554a68530182680ad5c8b042c3ab563,furniture_decor,MG,245,244,35669.48,145.59,18.4,41.6,0.34,25.0,0,15,0.0,6.15,8.89,0,4.329,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+70eea00b476a314817cefde4aad4f89a,sports_leisure,SP,107,105,34714.54,324.43,19.6,53.7,0.35,31.1,0,7,0.0,6.67,10.0,0,4.371,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+5c243662ce92d84573bfaff24c3e3700,health_beauty,SP,98,98,34637.66,353.45,15.3,74.7,0.22,18.4,0,1,0.0,1.02,0.0,0,4.144,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+001cca7ae9ae17fb1caed9dfb1094831,garden_tools,ES,200,195,34020.14,170.1,20.5,51.0,0.3,27.0,0,12,0.0,6.15,4.88,0,3.985,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+d1c281d3ae149232351cd8c8cc885f0d,bed_bath_table,SP,207,206,33445.57,161.57,22.2,61.8,0.29,32.7,0,14,0.0,6.8,6.52,0,3.824,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+0b90b6df587eb83608a64ea8b390cf07,computers_accessories,PR,163,162,32641.16,200.25,21.5,23.4,0.35,18.2,0,6,0.0,3.7,0.0,0,4.015,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+9f505651f4a6abe901a56cdc21508025,computers_accessories,SP,395,391,32332.82,81.86,24.3,17.2,0.43,26.6,0,16,0.0,4.09,7.37,0,4.349,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+a3a38f4affed601eb87a97788c949667,toys,SC,252,249,31945.33,126.77,17.9,32.7,0.25,29.7,0,11,0.0,4.42,2.22,0,4.394,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+d23019c84ffae2d5ef2270367b8605fc,musical_instruments,PR,38,38,31875.04,838.82,18.4,64.5,7.52,20.4,0,1,0.0,2.63,0.0,0,4.395,6,6.3,0.0,54.45,380.205,4.2780000000000005,7.6274999999999995,1.155,43.5,,0
+8b321bb669392f5163d04c59e235e066,electronics,SP,931,918,31243.77,33.56,25.3,1.4,0.42,27.6,0,80,0.0,8.71,9.87,1,4.09,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,,0
+16090f2ca825584b5a147ab24aa30c86,auto,SP,401,397,31140.72,77.66,31.7,11.0,0.52,28.6,0,32,0.0,8.06,8.8,1,4.058,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+12b9676b00f60f3b700e83af21824c0e,cool_stuff,RS,135,133,30368.66,224.95,19.3,72.6,0.35,31.8,1,1,0.74,0.75,3.85,0,4.522,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+c003204e1ab016dfa150abc119207b24,auto,SP,197,195,29970.17,152.13,25.4,22.3,0.62,30.9,0,10,0.0,5.13,4.0,0,4.449,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+dc4a0fc896dc34b0d5bfec8438291c80,bed_bath_table,SP,227,221,29417.32,129.59,15.4,63.5,0.29,28.6,0,15,0.0,6.79,5.71,0,3.802,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+de23c3b98a88888289c6f5cc1209054a,toys,SP,164,161,29310.07,178.72,7.9,31.3,0.34,16.9,1,12,0.61,7.45,15.38,1,4.256,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+1c68394e931a64f90ea236c5ea590300,computers_accessories,PR,139,139,27940.63,201.01,24.5,21.8,0.36,28.9,0,5,0.0,3.6,5.88,0,3.946,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+710e3548e02bc1d2831dfc4f1b5b14d4,furniture_decor,PR,135,130,27823.13,206.1,13.3,46.6,0.27,32.6,0,5,0.0,3.85,11.11,0,3.381,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+1a3df491d1c4f1589fc2b934ada68bf2,bed_bath_table,SC,167,160,27594.12,165.23,19.2,74.8,0.29,31.0,0,6,0.0,3.75,0.0,0,4.189,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+b94cc9f10ddc85e4ba73a6f7974e7101,toys,RJ,39,39,26368.49,676.12,15.4,78.8,0.35,4.8,0,2,0.0,5.13,0.0,0,4.297,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+f45122a9ab94eb4f3f8953578bc0c560,pet_shop,SP,182,179,25106.25,137.95,23.6,32.8,0.29,30.9,0,13,0.0,7.26,7.14,1,3.995,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+2b3e4a2a3ea8e01938cabda2a3e5cc79,computers_accessories,SP,52,52,24996.98,480.71,25.0,48.6,1.52,17.3,0,0,0.0,0.0,0.0,0,4.365,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+8444e55c1f13cd5c179851e5ca5ebd00,perfumery,MG,98,91,24984.12,254.94,12.2,57.0,0.26,21.5,4,6,4.08,6.59,9.09,0,3.276,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+06e5eefc71ec47ae763c5c6f8db7064f,computers_accessories,RS,92,90,24673.05,268.19,20.7,38.6,0.65,16.8,0,0,0.0,0.0,0.0,0,3.922,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+744dac408745240a2c2528fb1b6028f3,watches_gifts,PR,79,78,24664.61,312.21,1.3,73.3,0.29,13.8,0,1,0.0,1.28,0.0,0,4.57,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+85d9eb9ddc5d00ca9336a2219c97bb13,computers_accessories,MG,508,498,24046.61,47.34,29.7,24.5,0.46,29.5,1,11,0.2,2.21,3.36,1,4.184,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+00ee68308b45bc5e2660cd833c3f81cc,bed_bath_table,SP,134,134,23823.56,177.79,12.7,48.2,0.32,29.1,0,10,0.0,7.46,5.88,0,4.323,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+05ff92fedb5be47920fea08e501238b9,cool_stuff,RS,59,57,23808.17,403.53,23.7,55.6,0.37,17.2,0,2,0.0,3.51,0.0,0,4.237,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+59fb871bf6f4522a87ba567b42dafecf,health_beauty,SP,126,123,23754.76,188.53,14.3,52.9,0.26,22.0,0,7,0.0,5.69,16.67,1,4.232,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+f457c46070d02cadd8a68551231220dd,computers_accessories,PR,190,186,23698.78,124.73,23.7,10.8,0.37,30.5,3,11,1.58,5.91,2.22,0,3.884,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+004c9cd9d87a3c30c522c48c4fc07416,bed_bath_table,SP,158,156,23367.54,147.9,17.1,64.3,0.28,22.0,0,10,0.0,6.41,3.7,0,4.148,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+7b0df942f46435babab05d49b744b2c4,musical_instruments,SP,32,32,23272.78,727.27,28.1,66.7,1.1,28.1,0,3,0.0,9.38,22.22,0,4.387,6,6.3,0.0,54.45,380.205,4.2780000000000005,7.6274999999999995,1.155,43.5,,0
+48162d548f5b1b11b9d29d1e01f75a61,garden_tools,SP,68,66,23168.49,340.71,23.5,65.3,0.31,20.9,1,1,1.47,1.52,6.67,0,3.897,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+bfd27a966d91cfaafdb25d076585f0da,toys,SP,117,114,22684.5,193.88,12.8,41.2,0.28,13.6,0,6,0.0,5.26,7.14,0,4.278,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+dc317f341ab0e22f39acbd9dbf9b4a1f,cool_stuff,RS,55,55,22658.91,411.98,21.8,64.3,0.29,35.1,0,3,0.0,5.45,0.0,0,4.145,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+44073f8b7e41514de3b7815dd0237f4f,health_beauty,DF,144,142,21944.5,152.39,13.9,42.0,0.24,21.8,0,5,0.0,3.52,0.0,0,3.755,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+128639473a139ac0f3e5f5ade55873a5,electronics,PR,531,525,21888.63,41.22,26.4,3.8,0.35,26.9,0,22,0.0,4.19,3.6,1,4.19,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,,0
+41b39e28db005d9731d9d485a83b4c38,bed_bath_table,SP,191,183,21566.74,112.91,15.7,41.6,0.29,29.8,2,9,1.05,4.92,7.14,0,4.073,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+0c8380b62e38e8a1e6adbeba7eb9688c,bed_bath_table,MG,177,175,21303.45,120.36,15.3,52.4,0.23,20.7,0,9,0.0,5.14,3.7,0,4.074,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+fa40cc5b934574b62717c68f3d678b6d,toys,SP,305,302,20639.43,67.67,28.9,15.1,0.29,28.3,1,16,0.33,5.3,5.75,0,4.479,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+54a1852d1b8f10312c55e906355666ee,sports_leisure,SP,200,198,20635.47,103.18,23.0,19.4,0.33,33.8,0,15,0.0,7.58,6.52,0,4.327,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+1e8b33f18b4f7598d87f5cbee2282cc2,bed_bath_table,SP,122,121,20305.62,166.44,7.4,53.7,0.33,36.7,0,4,0.0,3.31,0.0,0,4.4,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+76d64c4aca3a7baf218bf93ef7fa768d,toys,PR,63,63,20256.16,321.53,17.5,65.4,0.37,14.4,0,2,0.0,3.17,0.0,0,4.222,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+2a5b78b41cd05baeac8df54c6606b92c,health_beauty,MG,49,46,20223.43,412.72,22.4,47.4,0.38,18.1,0,1,0.0,2.17,10.0,0,4.327,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+96493fab2fbb13a14d0c0e8772eef5c3,computers_accessories,SP,63,63,20181.23,320.34,9.5,65.5,0.25,29.2,0,4,0.0,6.35,0.0,0,4.065,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+c33847515fa6305ce6feb1e818569f13,bed_bath_table,SC,112,112,20150.94,179.92,19.6,67.8,0.43,30.7,0,4,0.0,3.57,9.09,0,3.83,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+86ccac0b835037332a596a33b6949ee1,watches_gifts,SC,172,170,19998.92,116.27,25.6,35.5,0.27,33.2,1,4,0.58,2.35,0.0,0,4.241,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+d650b663c3b5f6fb392b6326366efa9a,watches_gifts,SP,59,56,19901.86,337.32,3.4,71.9,0.35,18.8,0,3,0.0,5.36,0.0,0,4.254,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+79ebd9a61bac3eaf882805ed4ecfa12a,furniture_decor,PR,135,132,19797.21,146.65,32.6,44.2,1.0,26.8,0,6,0.0,4.55,2.33,0,4.044,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+9de4643a8dbde634fe55621059d92273,housewares,SC,72,72,19369.32,269.02,5.6,65.6,0.29,33.8,0,2,0.0,2.78,0.0,0,4.528,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+2a84855fd20af891be03bc5924d2b453,stationery,MG,163,154,19338.54,118.64,14.1,43.4,0.38,29.9,3,4,1.84,2.6,0.0,0,4.245,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+4b9750c8ad28220fe6702d4ecb7c898f,baby,SP,216,215,19216.44,88.96,14.8,16.3,0.35,15.5,0,13,0.0,6.05,12.5,1,4.366,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+0adac9fbd9a2b63cccaac4f8756c1ca8,housewares,SP,109,105,18790.03,172.39,9.2,38.7,0.29,40.4,3,6,2.75,5.71,10.0,0,4.065,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+94144541854e298c2d976cb893b81343,health_beauty,RS,68,68,18715.65,275.23,26.5,48.0,0.31,33.9,0,3,0.0,4.41,5.56,1,4.254,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+2138ccb85b11a4ec1e37afbd1c8eda1f,telephony,SP,391,383,18601.68,47.57,24.8,23.0,0.33,29.6,3,18,0.77,4.7,4.35,0,3.944,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+ef0ace09169ac090589d85746e3e036f,perfumery,RJ,128,127,18536.28,144.81,14.8,45.4,0.39,30.5,0,10,0.0,7.87,0.0,0,4.398,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+165fc07beebdcb6190fba8a06db2a449,computers_accessories,PR,47,47,18405.74,391.61,36.2,41.4,1.23,17.5,0,4,0.0,8.51,11.76,0,3.894,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+229c3efbfb0ea2058de4ccdfbc3d784a,computers_accessories,MG,121,118,18106.57,149.64,19.0,31.1,0.26,35.6,0,2,0.0,1.69,0.0,0,3.625,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+5cf13accae3222c70a9cac40818ae839,pet_shop,MG,148,147,17824.01,120.43,13.5,28.3,0.28,32.3,0,3,0.0,2.04,5.0,0,4.476,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+1b4c3a6f53068f0b6944d2d005c9fc89,housewares,SC,112,110,17790.34,158.84,26.8,51.2,0.29,30.6,0,5,0.0,4.55,10.71,1,4.207,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+8ae520247981aa06bc94abddf5f46d34,watches_gifts,SC,65,65,17766.34,273.33,9.2,54.4,0.32,52.4,0,0,0.0,0.0,0.0,0,4.446,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+01fdefa7697d26ad920e9e0346d4bd1b,health_beauty,PR,129,128,17735.12,137.48,23.3,47.3,0.32,25.0,0,7,0.0,5.47,3.33,0,4.352,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+66922902710d126a0e7d26b0e3805106,pet_shop,MG,150,149,17600.19,117.33,19.3,20.4,0.37,16.8,0,11,0.0,7.38,20.69,2,4.497,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+d921b68bf747894be13a97ae52b0f386,watches_gifts,MG,76,76,17175.08,225.99,3.9,61.4,0.33,26.2,0,1,0.0,1.32,0.0,0,4.605,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+6d66611d7c44cc30ce351abc49a68421,musical_instruments,SP,165,163,17041.56,103.28,17.0,44.4,0.37,29.8,0,9,0.0,5.52,0.0,0,3.969,6,6.3,0.0,54.45,380.205,4.2780000000000005,7.6274999999999995,1.155,43.5,,0
+d94a40fd42351c259927028d163af842,housewares,MG,97,96,16839.87,173.61,14.4,51.2,0.33,32.9,0,3,0.0,3.13,14.29,0,4.25,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+2e90cb1677d35cfe24eef47d441b7c87,electronics,SP,126,126,16809.92,133.41,20.6,38.1,0.32,29.0,0,16,0.0,12.7,19.23,0,4.111,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,,0
+3b15288545f8928d3e65a8f949a28291,bed_bath_table,SP,102,99,16593.2,162.68,12.7,72.3,0.29,34.2,0,7,0.0,7.07,7.69,0,4.04,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+669ae81880e08f269a64487cfb287169,sports_leisure,SC,161,160,16570.08,102.92,24.8,17.9,0.32,22.8,1,7,0.62,4.38,2.5,0,4.263,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+a3e9a2c700480d9bb01fba070ba80a0e,bed_bath_table,SP,126,125,16506.49,131.0,17.5,60.9,0.3,18.2,0,11,0.0,8.8,4.76,0,4.028,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+c847e075301870dd144a116762eaff9a,cool_stuff,MG,42,41,16460.78,391.92,28.6,44.8,0.33,27.6,1,3,2.38,7.32,0.0,0,4.171,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+a5cba26a62b8b4d0145b68b841e62e7f,health_beauty,PR,54,53,16120.66,298.53,14.8,71.7,0.46,29.8,0,1,0.0,1.89,0.0,0,4.519,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+1f9ab4708f3056ede07124aad39a2554,baby,SP,78,76,16102.29,206.44,20.5,45.8,0.46,35.6,0,4,0.0,5.26,6.25,0,4.078,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+6edacfd9f9074789dad6d62ba7950b9c,furniture_decor,SP,202,199,15799.82,78.22,16.3,29.7,0.26,31.2,1,9,0.5,4.52,12.12,0,4.413,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+9e6229250fedbe05838fef417b74e7fb,baby,SP,74,73,15778.48,213.22,10.8,61.3,0.32,47.9,0,2,0.0,2.74,0.0,0,3.892,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+ac3508719a1d8f5b7614b798f70af136,toys,RS,102,100,15753.47,154.45,13.7,43.0,0.29,25.8,0,2,0.0,2.0,7.14,0,4.6,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+530ec6109d11eaaf87999465c6afee01,sports_leisure,PR,97,94,15640.21,161.24,23.7,21.4,0.4,27.4,0,1,0.0,1.06,0.0,0,4.237,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+b8bc237ba3788b23da09c0f1f3a3288c,housewares,SC,45,45,15621.16,347.14,20.0,72.2,0.36,19.7,0,1,0.0,2.22,0.0,0,4.318,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+289cdb325fb7e7f891c38608bf9e0962,perfumery,SP,106,105,15610.35,147.27,18.9,43.5,0.36,32.4,0,2,0.0,1.9,5.0,0,4.594,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+080199a181c46c657dc5aa235411be3b,auto,SP,79,79,15544.88,196.77,12.7,34.3,0.32,24.0,0,1,0.0,1.27,0.0,0,4.615,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+c6bda72e4dbf5c5866b13cb1810c6d03,baby,SP,58,58,15341.22,264.5,12.1,45.1,0.24,30.1,0,2,0.0,3.45,0.0,0,4.457,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+aba1721a889e04decc910aa13b768ef4,stationery,SP,81,81,15255.86,188.34,17.3,36.9,0.33,15.3,0,6,0.0,7.41,7.14,0,4.444,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+48436dade18ac8b2bce089ec2a041202,cool_stuff,SP,137,133,15170.85,110.74,21.2,30.0,0.28,18.4,0,10,0.0,7.52,10.34,0,4.029,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+2e1c9f22be269ef4643f826c9e650a52,health_beauty,SP,166,160,15111.27,91.03,15.1,30.1,0.32,32.3,1,10,0.6,6.25,0.0,0,4.184,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+d50d79cb34e38265a8649c383dcffd48,garden_tools,SP,69,69,15010.68,217.55,33.3,54.8,0.91,32.4,0,3,0.0,4.35,0.0,0,4.25,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+e26901d5ab434ce92fd9b5c256820a4e,garden_tools,SP,202,197,14964.18,74.08,28.2,29.0,0.23,18.8,1,3,0.5,1.52,0.0,0,4.124,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+0ea22c1cfbdc755f86b9b54b39c16043,fashion_bags_accessories,MG,228,225,14919.91,65.44,30.3,31.5,0.53,29.0,0,2,0.0,0.89,2.94,1,4.44,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+813348c996469b40f2e028d5429d3495,housewares,SP,178,171,14753.44,82.88,14.6,25.7,0.28,28.6,0,8,0.0,4.68,4.0,0,4.057,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+d05ae8f7a5bd1d2a690a44cd079e4e27,sports_leisure,RJ,78,77,14741.74,189.0,14.1,31.8,0.35,31.6,1,5,1.28,6.49,9.09,0,3.857,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+240b9776d844d37535668549a396af32,telephony,RJ,36,35,14452.65,401.46,16.7,62.1,0.27,23.2,0,1,0.0,2.86,0.0,0,4.278,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+0be8ff43f22e456b4e0371b2245e4d01,sports_leisure,SP,159,154,14436.69,90.8,11.9,30.5,0.34,18.9,3,10,1.89,6.49,10.53,1,3.969,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+34d1ca11b242c0fee2c834ae8d788566,computers_accessories,MG,40,40,14404.28,360.11,30.0,48.1,0.39,31.9,0,0,0.0,0.0,0.0,0,4.333,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+8d956fec2e4337affcb520f56fd8cbfd,sports_leisure,SP,210,209,14315.44,68.17,16.7,14.9,0.42,20.5,1,13,0.48,6.22,5.71,0,4.214,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+cab85505710c7cb9b720bceb52b01cee,fashion_bags_accessories,SP,205,200,14266.65,69.59,18.0,22.7,0.33,24.7,0,4,0.0,2.0,0.0,0,4.277,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+80e6699fe29150b372a0c8a1ebf7dcc8,sports_leisure,PR,97,95,14153.67,145.91,23.7,42.3,0.3,29.1,0,3,0.0,3.16,0.0,0,4.313,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+ff063b022a9a0aab91bad2c9088760b7,furniture_decor,SP,93,93,14150.53,152.16,20.4,39.1,0.42,17.3,0,3,0.0,3.23,5.26,1,4.312,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+95e03ca3d4146e4011985981aeb959b9,housewares,RJ,172,169,14089.2,81.91,17.4,21.9,0.3,35.4,0,6,0.0,3.55,0.0,0,4.038,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+e24fc9fcd865784fb25705606fe3dfe7,health_beauty,SP,52,51,13966.71,268.59,13.5,54.5,0.28,12.7,0,4,0.0,7.84,0.0,0,4.173,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+c66dccfb3f109511246da627dd5a2498,watches_gifts,SP,44,43,13955.14,317.16,6.8,65.9,0.37,33.4,0,2,0.0,4.65,0.0,0,4.477,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+7202e2ba20579a9bd1acb29e61fe71f6,telephony,SP,53,51,13916.16,262.57,18.9,35.7,0.55,24.2,0,2,0.0,3.92,0.0,0,3.865,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+09f952a5f58d2285b0372551ae8f9b01,furniture_decor,SP,48,48,13871.98,289.0,20.8,48.5,0.44,30.7,0,3,0.0,6.25,0.0,0,3.896,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+b372ee768ed69e46ca8cdbd267aa7a38,fashion_bags_accessories,SP,63,63,13813.84,219.27,14.3,56.6,0.37,30.5,0,0,0.0,0.0,0.0,0,4.437,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+c8b0e2b0a7095e5d8219575d5e7e1181,auto,SP,83,83,13739.77,165.54,6.0,45.9,0.28,30.5,0,6,0.0,7.23,0.0,0,4.098,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+6cd68b3ed6d59aaa9fece558ad360c0a,luggage_accessories,MG,147,147,13738.32,93.46,15.0,33.3,0.23,30.9,0,2,0.0,1.36,0.0,0,4.469,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,,0
+70c27847eca8195c983ed7e798c56743,pet_shop,RJ,76,76,13686.84,180.09,15.8,32.7,0.34,16.6,0,5,0.0,6.58,8.33,0,4.224,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+1d8dbc4f32378d715c717c1c1fc57bae,baby,PR,91,90,13668.56,150.2,18.7,50.0,0.26,23.9,0,8,0.0,8.89,17.65,0,4.034,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+5a8e7d5003a1f221f9e1d6e411de7c23,furniture_decor,SP,133,131,13591.22,102.19,19.5,35.6,0.26,29.5,1,5,0.75,3.82,3.85,1,4.152,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+25e6ffe976bd75618accfe16cefcbd0d,toys,SP,107,105,13466.06,125.85,21.5,31.3,0.33,29.2,1,3,0.93,2.86,4.35,0,4.411,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+ed4acab38528488b65a9a9c603ff024a,computers_accessories,SP,32,32,13369.76,417.81,9.4,33.3,0.33,27.6,0,0,0.0,0.0,0.0,0,3.719,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+562fc2f2c2863ab7e79a9e4388a58a14,telephony,SP,257,252,13162.08,51.21,20.6,45.5,0.49,20.2,2,8,0.78,3.17,9.62,0,4.235,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+d1b65fc7debc3361ea86b5f14c68d2e2,luggage_accessories,SP,40,39,13141.8,328.54,17.5,65.6,0.28,42.0,1,1,2.5,2.56,0.0,0,4.55,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,,0
+ca3bd7cd9f149df75950150d010fe4a2,housewares,SP,70,67,13128.23,187.55,34.3,31.1,0.55,36.9,1,1,1.43,1.49,0.0,0,3.971,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+f262cbc1c910c83959f849465454ddd3,computers_accessories,SP,192,189,13048.79,67.96,24.0,11.9,0.37,30.2,1,14,0.52,7.41,4.65,0,4.149,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+1da3aeb70d7989d1e6d9b0e887f97c23,sports_leisure,SP,261,257,13019.61,49.88,19.2,13.7,0.31,22.3,1,12,0.38,4.67,2.0,0,4.162,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+ce27a3cc3c8cc1ea79d11e561e9bebb6,computers_accessories,SP,135,122,13015.54,96.41,20.7,32.0,0.28,22.6,0,2,0.0,1.64,4.0,0,3.915,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+4830e40640734fc1c52cd21127c341d4,housewares,SP,206,200,12936.49,62.8,16.0,17.8,0.33,32.7,2,10,0.97,5.0,3.03,0,4.161,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+c9c7905cffc4ef9ff9f113554423e671,telephony,SP,126,126,12897.6,102.36,19.8,19.1,0.35,26.5,0,10,0.0,7.94,16.0,1,4.151,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+dd2bdf855a9172734fbc3744021ae9b9,bed_bath_table,MG,108,105,12857.17,119.05,21.3,51.2,0.32,27.4,2,6,1.85,5.71,8.7,0,3.846,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+72c5da29406b4234927b81855e7b64f6,construction_tools_construction,SP,31,31,12723.05,410.42,29.0,66.7,4.09,29.2,0,1,0.0,3.23,11.11,0,4.129,6,5.67,0.0,58.35,257.15999999999997,4.093500000000001,9.362499999999999,0.0,30.125,,0
+7ea5bfa6c340f58f8e71fc1f0412b0d6,baby,MG,97,95,12707.98,131.01,15.5,30.7,0.37,26.3,0,6,0.0,6.32,0.0,0,4.156,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+f3b80352b986ab4d1057a4b724be19d0,health_beauty,DF,87,86,12692.73,145.89,17.2,49.3,0.3,30.1,0,0,0.0,0.0,0.0,0,4.172,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+82e0a475a88cc9595229d8029273f045,furniture_decor,SP,42,41,12529.49,298.32,21.4,53.1,0.26,27.5,1,4,2.38,9.76,12.5,0,3.571,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+c864036feaab8c1659f65ea4faebe1da,sports_leisure,PR,58,58,12299.77,212.07,17.2,37.0,0.33,29.1,0,2,0.0,3.45,10.0,0,4.569,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+17ca9b9e9b9ef8fdb529001b49ebb50f,bed_bath_table,MG,115,114,12150.85,105.66,19.1,48.2,0.44,37.2,0,1,0.0,0.88,0.0,0,4.061,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+bd23da7354813347129d751591d1a6e2,furniture_decor,SP,88,85,12096.56,137.46,25.0,60.3,0.37,15.8,1,2,1.14,2.35,9.52,0,4.011,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+1c129092bf23f28a5930387c980c0dfc,bed_bath_table,SP,190,189,12083.7,63.6,16.8,39.3,0.33,27.8,0,9,0.0,4.76,6.25,0,4.344,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+31344c16881c08a8a72c6d2eb29918c1,furniture_decor,MG,42,41,12054.81,287.02,14.3,62.9,0.28,33.4,0,2,0.0,4.88,0.0,0,4.429,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+32b8764b4ef628b53608fc34011fcc13,housewares,SC,36,36,12000.16,333.34,11.1,46.9,0.43,25.4,0,1,0.0,2.78,0.0,0,4.194,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+33a6f4b1e7cdc205511e76ba1b6e0186,bed_bath_table,SP,102,102,11962.73,117.28,12.7,41.7,0.35,29.1,0,2,0.0,1.96,7.69,0,4.431,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+9d5a9018aee56acb367ba9c3f05d1d6a,baby,GO,66,65,11915.52,180.54,13.6,54.7,0.24,18.1,0,1,0.0,1.54,0.0,0,4.455,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+9b013e03b2ab786505a1d3b5c0756754,health_beauty,SP,172,168,11655.81,67.77,24.4,12.0,0.41,32.2,0,7,0.0,4.17,0.0,0,4.17,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+aafe36600ce604f205b86b5084d3d767,baby,SC,128,128,11624.82,90.82,23.4,31.5,0.34,32.6,0,5,0.0,3.91,6.67,0,4.406,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+36a968b544695394e4e9d7572688598f,computers_accessories,SP,152,146,11600.84,76.32,22.4,12.6,0.36,19.4,1,5,0.66,3.42,6.06,1,3.641,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+0df3984f9dfb3d49ac6366acbd3bbb85,health_beauty,MG,86,85,11522.91,133.99,17.4,44.1,0.31,27.9,1,1,1.16,1.18,0.0,0,4.384,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+9d4db00d65d7760644ac0c14edb5fd86,toys,SP,98,97,11512.81,117.48,16.3,19.2,0.38,21.2,0,4,0.0,4.12,6.25,1,4.515,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+5656537e588803a555b8eb41f07a944b,electronics,DF,174,171,11503.81,66.11,21.3,13.8,0.37,18.2,0,10,0.0,5.85,2.7,0,3.874,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,,0
+aaed1309374718fdd995ee4c58c9dfcd,sports_leisure,SC,104,103,11500.28,110.58,24.0,32.0,0.36,27.9,0,3,0.0,2.91,4.0,0,4.096,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+6c7d50c24b3ccd2fd83b44d8bb34e073,furniture_decor,SP,109,107,11464.92,105.18,18.3,32.9,0.36,38.1,1,2,0.92,1.87,5.0,0,4.463,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+92eb0f42c21942b6552362b9b114707d,telephony,SP,336,329,11345.4,33.77,25.3,6.5,0.37,28.6,0,16,0.0,4.86,5.88,0,4.015,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+259f7b5e6e482c230e5bfaa670b6bb8f,bed_bath_table,SP,137,135,11305.99,82.53,24.1,33.3,0.42,20.5,0,2,0.0,1.48,0.0,0,4.331,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+81a1104df0f08b59c68aa5b03cfe398e,garden_tools,PR,73,72,11235.27,153.91,30.1,32.6,0.45,34.1,0,3,0.0,4.17,4.55,0,4.268,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+066a6914e1ebf3ea95a216c73a986b91,sports_leisure,PR,67,65,11168.07,166.69,13.4,36.8,0.28,22.1,0,2,0.0,3.08,0.0,0,4.121,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+624f4ece8da4aafb77699233d480f8ef,furniture_decor,SP,52,51,11117.11,213.79,19.2,45.2,0.37,27.7,0,4,0.0,7.84,0.0,0,4.235,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+0db783cfcd3b73998abc6e10e59a102f,telephony,SP,131,131,11078.68,84.57,27.5,45.2,0.28,19.9,0,5,0.0,3.82,5.56,0,4.2,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+7b07b3c7487f0ea825fc6df75abd658b,sports_leisure,SP,92,90,11056.88,120.18,12.0,22.4,0.25,19.1,1,4,1.09,4.44,0.0,0,4.348,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+7008613ea464bad5cb9b83456e1e6a8f,sports_leisure,SC,127,123,10862.27,85.53,32.3,31.0,0.5,33.8,0,6,0.0,4.88,5.0,0,4.262,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+b1a81260566c1bac3114a6d124413f27,luggage_accessories,RS,51,51,10535.66,206.58,15.7,55.0,0.38,28.9,0,0,0.0,0.0,0.0,0,4.275,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,,0
+f27e33c6d29b5138fa9967bcd445b6d5,pet_shop,SP,92,92,10516.12,114.31,35.9,17.5,0.37,33.8,0,8,0.0,8.7,3.03,0,4.087,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+b92e3c8f9738272ff7c59e111e108d7c,furniture_decor,MG,60,60,10512.01,175.2,16.7,54.3,0.26,34.3,0,2,0.0,3.33,0.0,0,4.2,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+cb8bcce248bb1fb274ba762d8b971456,cool_stuff,MG,67,65,10486.91,156.52,17.9,30.0,0.29,29.2,0,1,0.0,1.54,0.0,0,4.239,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+5b8154610ebb21fb90eb587365e673df,computers_accessories,SP,38,37,10474.98,275.66,15.8,50.0,0.34,28.2,1,4,2.63,10.81,0.0,0,4.184,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+febab0275244b9a49a623f0bd613ca2f,housewares,SP,105,102,10415.22,99.19,27.6,42.4,0.49,34.6,0,4,0.0,3.92,7.41,0,4.41,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+7d456afc660226829370f3173d14520c,bed_bath_table,SP,55,54,10148.42,184.52,18.2,53.5,0.34,20.7,0,2,0.0,3.7,0.0,0,4.345,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+5f2684dab12e59f83bef73ae57724e45,toys,SP,68,67,10123.06,148.87,16.2,49.1,0.32,35.8,1,4,1.47,5.97,0.0,0,3.809,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+3c487ae8f8d7542beff5788e2e0aea83,fashion_bags_accessories,DF,30,30,10105.35,336.85,23.3,86.4,0.47,18.7,0,1,0.0,3.33,0.0,0,4.2,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+d98eec89afa3380e14463da2aabaea72,fashion_bags_accessories,RS,165,165,10072.05,61.04,24.8,20.3,0.29,27.7,0,4,0.0,2.42,2.44,0,4.387,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+0bae85eb84b9fb3bd773911e89288d54,housewares,SP,131,130,10001.1,76.34,14.5,30.5,0.33,29.9,0,1,0.0,0.77,0.0,0,4.298,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+6d803cb79cc31c41c4c789a75933b3c7,sports_leisure,SP,58,58,9925.07,171.12,19.0,28.9,0.29,19.6,0,4,0.0,6.9,18.18,0,4.25,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+2dee2ce60de9709b1a24083217181a1f,perfumery,MT,54,54,9879.24,182.95,16.7,54.5,0.36,33.3,0,1,0.0,1.85,0.0,0,4.426,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+640e21a7d01df7614a3b4923e990d40c,bed_bath_table,SP,111,110,9779.1,88.1,14.4,38.2,0.36,19.5,0,5,0.0,4.55,6.67,0,4.333,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+db2956745b3a8e9f3785c99f34b5d25e,health_beauty,SP,47,45,9723.72,206.89,31.9,50.0,0.68,17.5,0,4,0.0,8.89,13.33,0,3.766,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+3078096983cf766a32a06257648502d1,toys,SP,59,56,9700.9,164.42,16.9,42.6,0.27,27.6,2,2,3.39,3.57,0.0,0,4.203,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+ebd2d60905fb58271facef5596b620d3,health_beauty,SP,83,81,9674.21,116.56,16.9,38.2,0.26,35.5,0,3,0.0,3.7,7.14,0,4.145,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+8a432f4e5b471f8da497d7dc517666e2,bed_bath_table,SP,93,93,9618.23,103.42,10.8,52.6,0.39,22.3,0,2,0.0,2.15,0.0,0,4.239,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+33a17d60c64393351ebf1ef860f4e0f2,housewares,RS,43,43,9528.63,221.6,18.6,64.7,0.34,23.6,0,1,0.0,2.33,0.0,0,4.628,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+6c177e38df6d3f34182b1f1d427231bf,telephony,PR,55,53,9403.34,170.97,10.9,34.0,0.23,22.6,0,1,0.0,1.89,0.0,0,4.036,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+750303a20e9c56b2a6bc45cdce0b897d,sports_leisure,GO,54,53,9399.98,174.07,11.1,38.6,0.58,36.0,0,2,0.0,3.77,0.0,0,4.241,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+725c32fa80c2faacc4fc88450d27314e,toys,SP,89,89,9282.99,104.3,20.2,39.1,0.29,26.9,0,1,0.0,1.12,0.0,0,4.517,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+a2e874074c877c5a05abae80ad6e488f,housewares,SP,44,40,9274.8,210.79,22.7,62.1,0.27,19.1,1,2,2.27,5.0,0.0,0,3.955,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+b4ffb71f0cb1b1c3d63fad021ecf93e1,auto,SP,142,141,9272.99,65.3,21.8,20.0,0.31,30.3,0,3,0.0,2.13,0.0,0,4.243,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+37515688008a7a40ac93e3b2e4ab203f,consoles_games,SP,222,221,9231.27,41.58,29.3,10.9,0.59,30.9,0,18,0.0,8.14,12.31,1,4.118,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,,0
+4371b634e0efc0e22b09b52907d9d469,sports_leisure,SP,100,99,9227.77,92.28,24.0,21.1,0.36,27.6,1,7,1.0,7.07,4.17,0,4.475,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+fcb5ace8bcc92f75707dc0f01a27d269,cool_stuff,SP,61,58,9177.51,150.45,31.1,20.5,0.4,38.7,1,2,1.64,3.45,6.25,0,3.9,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+0432ead42b6c8a0bdf68154add917fdf,toys,SP,84,81,9167.19,109.13,19.0,42.2,0.31,23.8,2,2,2.38,2.47,12.5,0,4.452,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+fdb9095204a334cd8872252ffec6f2db,bed_bath_table,SP,45,45,9128.27,202.85,11.1,48.7,0.26,28.4,0,3,0.0,6.67,0.0,0,4.167,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+08633c14ef2db992c11f840f04fad4cd,sports_leisure,SP,73,73,9091.68,124.54,24.7,35.2,0.42,30.7,0,4,0.0,5.48,5.56,0,4.384,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+bd0389da23d89b726abf911cccc54596,computers_accessories,DF,86,86,9065.61,105.41,27.9,14.5,0.37,18.4,0,6,0.0,6.98,0.0,0,4.209,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+7722b1df1b0e383e000397b2c11e3e19,housewares,SP,128,127,8992.23,70.25,12.5,26.9,0.25,32.4,0,4,0.0,3.15,0.0,0,4.266,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+26d8a1c7c75d513045798992ead43aa2,perfumery,PR,36,34,8945.78,248.49,13.9,53.3,0.28,19.7,0,3,0.0,8.82,0.0,0,4.306,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+8e6cc767478edae941d9bd9eb778d77a,housewares,MG,105,99,8905.0,84.81,17.1,46.1,0.27,30.3,2,6,1.9,6.06,5.56,0,3.932,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+609e1a9a6c2539919b8205cf7c4e6ff0,bed_bath_table,SC,80,80,8844.31,110.55,15.0,55.7,0.44,38.9,0,1,0.0,1.25,0.0,0,3.936,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+e333046ce6517bd8bb510291d44f0130,housewares,SP,68,68,8823.94,129.76,20.6,51.9,0.5,21.8,0,3,0.0,4.41,0.0,0,4.338,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+5b925e1d006e9476d738aa200751b73b,sports_leisure,SP,63,63,8801.84,139.71,17.5,26.0,0.39,28.7,0,4,0.0,6.35,18.18,0,4.603,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+4e17c65a516f69d023a2ae78b84f28d6,perfumery,SP,61,61,8794.81,144.18,16.4,43.8,0.36,16.5,0,3,0.0,4.92,10.0,0,4.23,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+ececbfcff9804a2d6b40f589df8eef2b,health_beauty,SP,98,97,8766.04,89.45,18.4,28.8,0.35,27.5,0,9,0.0,9.28,0.0,0,4.112,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+93dc87703c046b603023e75222018b45,watches_gifts,MG,34,32,8744.42,257.19,8.8,56.7,0.35,66.1,0,3,0.0,9.38,0.0,0,4.0,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+b410bdd36d5db7a65dcd42b7ead933b8,housewares,GO,44,42,8733.61,198.49,11.4,81.1,0.49,33.4,0,0,0.0,0.0,0.0,0,4.659,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+dbb9b48c841a0e39e21f98e1a6b2ec3e,housewares,SP,105,105,8728.02,83.12,19.0,35.4,0.27,25.6,0,4,0.0,3.81,10.0,0,4.314,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+1da366cade6d8276e7d8beea7af5d4bf,furniture_decor,MG,43,42,8722.76,202.85,25.6,41.9,0.21,32.4,0,3,0.0,7.14,0.0,0,3.929,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+058fd0aa2bfdb2274e05e1ae971dabb6,perfumery,SP,61,60,8620.45,141.32,18.0,59.2,0.36,16.3,0,4,0.0,6.67,0.0,0,4.393,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+062ce95fa2ad4dfaedfc79260130565f,furniture_decor,RS,53,52,8604.48,162.35,24.5,48.7,0.24,30.4,0,2,0.0,3.85,7.69,0,4.038,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+1127b7f2594683f2510f1c2c834a486b,garden_tools,SP,113,109,8593.5,76.05,24.8,21.3,0.28,33.1,4,2,3.54,1.83,0.0,0,4.106,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+8a32e327fe2c1b3511609d81aaf9f042,furniture_decor,SP,130,124,8557.05,65.82,18.5,36.7,0.25,34.3,2,4,1.54,3.23,4.17,1,3.853,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+a420f60ff1aa9acc80d0e42959f2b313,baby,SP,66,66,8498.54,128.77,13.6,25.5,0.35,28.5,0,5,0.0,7.58,11.11,0,4.0,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+cc63f0dd2acba93ffed4fe9f8e0321fa,housewares,SP,55,55,8496.67,154.48,18.2,37.2,0.32,34.2,0,0,0.0,0.0,0.0,0,4.091,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+42bde9fef835393bb8a8849cb6b7f245,toys,DF,35,34,8487.84,242.51,11.4,45.2,0.28,35.0,1,1,2.86,2.94,0.0,0,4.257,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+aced59e9b31ef866a94f9e7f29d8d418,housewares,SP,59,59,8406.37,142.48,20.3,32.6,0.24,24.8,0,2,0.0,3.39,0.0,0,4.475,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+381c83fdca332ea6afd896da20bf6e4a,watches_gifts,PR,46,46,8355.01,181.63,6.5,50.0,0.28,27.1,0,1,0.0,2.17,0.0,0,4.391,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+e0a366315b1b726b6c7832d664c0f530,construction_tools_construction,SP,43,43,8338.86,193.93,9.3,50.0,0.42,30.3,0,1,0.0,2.33,25.0,0,4.302,6,5.67,0.0,58.35,257.15999999999997,4.093500000000001,9.362499999999999,0.0,30.125,,0
+670c26e0f1bf8d0576271d5cfaec6d2b,sports_leisure,PR,78,77,8094.95,103.78,11.5,15.4,0.28,18.6,0,4,0.0,5.19,0.0,0,4.269,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+6a8b085f816a1f75f92dbac6eb545f8f,auto,SP,125,123,8056.66,64.45,24.8,10.6,0.34,28.8,0,9,0.0,7.32,10.0,0,4.132,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+516e7738bd8f735ac19a010ee5450d8d,health_beauty,RJ,74,72,8019.07,108.37,16.2,42.6,0.41,35.1,0,2,0.0,2.78,0.0,0,4.622,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+58f1a6197ed863543e0136bdedb3fce2,watches_gifts,MG,44,44,8010.16,182.05,11.4,47.2,0.34,31.1,0,1,0.0,2.38,0.0,0,4.182,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+080102cd0a76b09e0dcf55fcacc60e05,computers_accessories,MG,124,122,8000.85,64.52,26.6,5.8,0.39,21.4,0,5,0.0,4.1,6.25,0,4.476,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+dee656f0f566ed1aa85bd137c943f08f,sports_leisure,SP,91,90,7938.46,87.24,23.1,20.0,0.34,24.9,0,4,0.0,4.44,4.76,0,4.4,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+bacb1f0ed56ad24198f5810d2b3fe9a5,toys,SP,42,38,7915.2,188.46,16.7,31.4,0.26,9.9,3,1,7.14,2.63,0.0,0,4.075,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+f84a00e60c73a49e7e851c9bdca3a5bb,health_beauty,RJ,89,87,7895.68,88.72,11.2,26.3,0.33,28.9,0,9,0.0,10.34,11.11,0,3.82,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+fa1a9dec3a9940c072684a46728bf1fc,pet_shop,SC,53,53,7873.39,148.55,11.3,52.4,0.31,41.6,0,0,0.0,0.0,0.0,0,4.173,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+6b243f80ed07b10f0e8aa0f21a205f3c,sports_leisure,PR,78,78,7843.99,100.56,21.8,30.5,0.37,33.2,0,3,0.0,3.85,5.88,0,4.256,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+0691148aee60ca47977c187804f935ae,sports_leisure,PR,47,47,7841.36,166.84,10.6,31.7,0.35,23.3,0,1,0.0,2.13,0.0,0,4.181,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+8c16d1f32a54d92897cc437244442e1b,computers_accessories,SC,108,108,7810.86,72.32,31.5,26.8,0.43,28.8,0,1,0.0,0.93,2.94,0,4.355,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+376a891762bbdecbc02b4b6adec3fdda,sports_leisure,GO,57,57,7693.63,134.98,22.8,23.8,0.35,36.2,0,2,0.0,3.51,0.0,0,4.667,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+d9bd94811c3338dceb4181f3dbc0c73e,baby,SP,54,54,7682.11,142.26,13.0,26.2,0.42,41.8,0,3,0.0,5.56,28.57,0,4.796,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+63b464dbf392c7b80d12d932fa7cafed,furniture_decor,SP,37,36,7662.25,207.09,13.5,50.0,0.23,9.9,0,2,0.0,5.56,25.0,0,3.784,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+57e632711dec9ec14ca7546769483e7e,health_beauty,SC,61,61,7620.08,124.92,18.0,30.6,0.33,34.1,0,0,0.0,0.0,0.0,0,4.41,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+688756f717c462a206ad854c5027a64a,housewares,SP,78,76,7600.45,97.44,15.4,35.5,0.42,32.2,0,3,0.0,3.95,8.33,1,3.935,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+751bdc4d83a466c7206cd42e8f426b03,sports_leisure,SP,52,49,7578.56,145.74,17.3,23.8,0.31,30.9,2,1,3.85,2.04,0.0,0,3.88,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+3340ef1913fb70d28420f6ceb685c339,computers_accessories,PR,32,32,7547.16,235.85,18.8,30.8,0.22,15.0,0,1,0.0,3.13,0.0,0,4.375,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+9616352088dcf83a7c06637f4ebf1c80,sports_leisure,PR,92,91,7490.57,81.42,30.4,16.4,0.35,27.4,0,0,0.0,0.0,0.0,0,4.304,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+05d2173d43ea568aa0540eba70d2ca76,auto,MG,62,62,7438.93,119.98,33.9,18.9,0.69,30.6,0,3,0.0,4.84,9.52,0,4.183,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+ea67327e24487bdfac5fbfa37ea124df,bed_bath_table,SP,32,32,7408.25,231.51,9.4,77.8,0.31,64.0,0,1,0.0,3.13,0.0,0,3.531,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+7dc8c42cc750eeafea6c85712ffee9bf,housewares,SP,40,40,7385.46,184.64,20.0,35.7,0.4,29.5,0,2,0.0,5.0,12.5,0,4.275,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+4c03b9dd4c11ee2cb35c96c49efc9420,toys,SP,48,48,7374.76,153.64,12.5,57.5,0.23,32.8,0,1,0.0,2.08,0.0,0,4.106,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+6f892e20a171e98efe17fdb971ff319b,telephony,SP,44,41,7342.86,166.88,29.5,33.3,0.29,31.1,0,4,0.0,9.76,23.08,0,3.93,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+bd4889b5e9133b35b66e42a8665cea5c,furniture_decor,SP,36,36,7256.54,201.57,25.0,40.0,0.94,37.5,0,0,0.0,0.0,0.0,0,4.4,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+91f848e9f4be368f4318775aac733370,housewares,SP,63,60,7177.86,113.93,28.6,57.1,0.22,36.9,0,1,0.0,1.67,5.88,0,4.279,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+b6d44737c043328708f6749c2dbe50bd,housewares,SP,61,60,7137.89,117.01,14.8,40.9,0.39,35.0,1,4,1.64,6.67,0.0,0,4.459,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+e8b4225284fbb02d16f200513f1f395d,baby,SP,31,30,7086.13,228.58,6.5,57.1,0.44,24.3,0,3,0.0,10.0,0.0,0,4.194,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+3bb548e3cb7f70f28e3f11ee9dce0e59,computers_accessories,PR,42,42,7062.67,168.16,26.2,17.9,0.35,29.1,0,0,0.0,0.0,0.0,0,4.357,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+537eb890efff034a88679788b647c564,furniture_decor,RJ,154,152,6969.4,45.26,16.9,14.3,0.33,25.1,0,6,0.0,3.95,3.85,0,4.269,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+bba74270a87732727b5a3b4fd9ac1c39,sports_leisure,MG,36,35,6760.44,187.79,16.7,32.1,0.36,33.3,0,0,0.0,0.0,0.0,0,3.972,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+9baf5cb77970f539089d09a38bcec5c3,housewares,SP,32,31,6673.4,208.54,12.5,57.7,0.29,32.3,0,0,0.0,0.0,0.0,0,4.313,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+f181738b150df1f37cb0bd72e705b193,cool_stuff,SP,36,36,6657.81,184.94,19.4,50.0,0.42,32.1,0,3,0.0,8.33,14.29,0,4.472,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+3df020b72d3d44b3af9d110fa3940b65,furniture_decor,SP,54,54,6614.28,122.49,20.4,33.3,0.4,39.3,0,5,0.0,9.26,0.0,0,4.037,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+dfc5fb7259bb2b599ca565e6e9448f0f,garden_tools,SP,31,31,6601.86,212.96,22.6,45.8,0.33,35.8,0,1,0.0,3.23,0.0,0,4.194,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+45ba18c210d42734ec52c0c1c574e9ee,baby,SP,37,34,6558.19,177.25,21.6,33.3,16.18,39.4,1,1,2.7,2.94,0.0,0,3.892,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+b39d7fe263ef469605dbb32608aee0af,bed_bath_table,SP,43,43,6458.19,150.19,16.3,66.7,0.36,32.8,0,2,0.0,4.65,14.29,0,3.929,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+fc906263ca5083d09dce42fe02247800,computers_accessories,MG,114,112,6440.12,56.49,21.1,46.5,0.36,29.7,0,0,0.0,0.0,0.0,0,4.368,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+98dac6635aee4995d501a3972e047414,housewares,SP,86,84,6424.76,74.71,19.8,28.3,0.43,24.1,0,4,0.0,4.76,6.25,1,4.118,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+dfa0c4c6229ab200a4a1336b4d7128ff,housewares,SC,73,73,6386.52,87.49,17.8,29.3,0.38,29.2,0,1,0.0,1.37,0.0,0,4.11,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+dbd66278cbfe1aa1000f90a217ca4695,electronics,SP,83,83,6355.35,76.57,18.1,26.6,0.4,33.5,0,3,0.0,3.61,0.0,0,4.542,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,,0
+f84fa566034f5e8e880a07ec624c56af,health_beauty,SP,91,89,6326.7,69.52,24.2,16.9,0.34,24.6,0,9,0.0,10.11,4.55,0,4.211,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+709e16e2b25c7474d980076c6bfc4806,health_beauty,SP,59,59,6323.93,107.19,18.6,23.3,0.48,34.4,0,2,0.0,3.39,9.09,0,4.508,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+1336efc61c316ddf92c899eb817f7cae,pet_shop,SP,69,69,6279.5,91.01,14.5,25.9,0.24,30.5,0,6,0.0,8.7,10.0,0,4.159,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+83deb69e889cf80f82be1dc6d5f2d486,musical_instruments,SC,40,40,6276.65,156.92,30.0,33.3,0.66,29.6,0,2,0.0,5.0,8.33,0,4.325,6,6.3,0.0,54.45,380.205,4.2780000000000005,7.6274999999999995,1.155,43.5,,0
+afe0067131b73e40875c9b6c10bd2e21,perfumery,MG,46,45,6255.85,136.0,17.4,47.2,0.21,22.2,1,2,2.17,4.44,0.0,0,4.2,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+7e3f87d16fb353f408d467e74fbd8014,computers_accessories,SP,92,91,6247.41,67.91,32.6,16.1,1.07,27.4,0,6,0.0,6.59,6.67,0,4.13,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+d66c305afaec317ebee552073a674429,consoles_games,MG,41,38,6196.35,151.13,17.1,48.5,0.19,10.7,1,1,2.44,2.63,0.0,0,4.317,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,,0
+f67efa3f0b6761102a7f8c6b7b571f5d,pet_shop,PR,31,31,6166.02,198.9,22.6,43.5,0.25,32.3,0,0,0.0,0.0,0.0,0,4.484,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+06579cb253ecd5a3a12a9e6eb6bf8f47,housewares,SP,61,60,6145.27,100.74,19.7,39.1,0.29,31.8,0,4,0.0,6.67,8.33,0,4.115,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+0cbcee27c791afa0cdcb08587a2013a8,fashion_bags_accessories,MG,39,37,6141.31,157.47,17.9,37.5,0.38,27.2,1,4,2.56,10.53,14.29,0,3.846,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+abcd2cb37d46c2c8fb1bf071c859fc5b,health_beauty,MT,44,43,6141.19,139.57,13.6,52.6,0.32,30.5,0,2,0.0,4.65,0.0,0,4.273,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+f680f85bee2d253556ac91be391d2c82,baby,SP,45,45,6077.34,135.05,28.9,25.8,0.41,26.1,0,1,0.0,2.22,0.0,0,4.333,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+9add47bf45ce8e8c7db6b9cf670b1e09,furniture_decor,PR,43,41,6074.46,141.27,16.3,64.7,0.29,29.9,1,1,2.33,2.44,0.0,0,4.167,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+e067ad2c1c0b48758eb1b5228bcf7a68,pet_shop,SP,54,54,6047.91,112.0,14.8,16.7,0.33,36.5,0,4,0.0,7.41,0.0,0,4.148,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+0176f73cc1195f367f7b32db1e5b3aa8,bed_bath_table,SP,37,36,6025.97,162.86,16.2,56.7,0.31,32.9,0,4,0.0,11.11,0.0,0,4.162,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+d566c37fa119d5e66c4e9052e83ee4ea,sports_leisure,SP,64,64,6017.73,94.03,18.8,14.6,0.39,31.2,0,0,0.0,0.0,0.0,0,4.683,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+acce39e832338debb07b02385cde5967,stationery,MG,44,44,5974.26,135.78,6.8,40.0,0.24,36.1,0,0,0.0,0.0,0.0,0,4.477,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+23613d49c3ac2bd302259e55c06c050c,furniture_decor,SP,63,62,5973.48,94.82,28.6,43.9,0.34,29.8,0,6,0.0,9.68,16.67,1,3.952,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+3ab971ce71839580d2ae5b4e40fe8044,housewares,SP,36,35,5899.05,163.86,13.9,51.9,0.52,38.1,0,2,0.0,5.71,0.0,0,3.912,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+2ff97219cb8622eaf3cd89b7d9c09824,housewares,SP,88,86,5868.19,66.68,17.0,22.5,0.39,15.6,1,3,1.14,3.49,0.0,0,4.523,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+5b179e9e8cc7ab6fd113a46ca584da81,housewares,SP,34,34,5839.14,171.74,20.6,57.7,0.46,29.2,0,2,0.0,5.88,0.0,0,3.667,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+fad44952713764836814be105382aee5,health_beauty,RJ,32,32,5743.71,179.49,31.3,55.0,0.57,30.9,0,0,0.0,0.0,0.0,0,4.281,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+3c7c4a49ec3c6550809089c6a2ca9370,perfumery,SP,138,136,5736.42,41.57,31.2,12.0,0.73,32.8,0,8,0.0,5.88,4.76,0,3.659,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+cc5a78bbad32776dc4e3af205218368c,housewares,MG,32,32,5735.3,179.23,6.3,58.6,0.44,30.5,0,1,0.0,3.13,0.0,0,4.469,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+f789d2c4f2c2eb38fc4373e7a4b35264,pet_shop,MG,41,41,5660.7,138.07,12.2,22.2,0.35,43.1,0,2,0.0,4.88,0.0,0,4.293,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+45d33f715e24d15a6ccf5c17b3a23e3c,computers_accessories,SP,55,52,5623.3,102.24,21.8,30.8,0.28,31.0,2,3,3.64,5.77,8.33,0,4.2,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+ad420dd0c4f92f8af951ac24b86d0cf5,health_beauty,MG,42,42,5618.4,133.77,16.7,45.7,0.32,17.9,0,3,0.0,7.14,0.0,0,4.125,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+30a2f535bb48308f991d0b9ad4a8c4bb,furniture_decor,SP,67,67,5610.76,83.74,17.9,48.1,0.45,25.7,0,2,0.0,2.99,0.0,0,4.433,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+582d4f8675b945722eda7c0cb61ba4c7,electronics,SP,55,55,5597.33,101.77,25.5,12.8,0.69,18.9,0,1,0.0,1.82,7.14,0,4.218,8,7.28,0.0,14.7,71.34,4.1505,13.0975,0.0,10.55,,0
+2a7dc43cecabf23403078e2188437d1d,sports_leisure,SP,50,50,5567.4,111.35,12.0,19.0,0.24,33.6,0,3,0.0,6.0,16.67,0,4.18,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+8bd0f31cf0a614c658f6763bd02dea69,furniture_decor,SP,33,33,5526.68,167.48,27.3,39.1,0.83,37.2,0,1,0.0,3.03,0.0,0,4.281,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+42b729f859728f5079499127a9c2ef37,health_beauty,SP,103,102,5435.93,52.78,18.4,15.0,0.36,34.5,0,8,0.0,7.84,5.26,1,4.5,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+c68fb906c8f4b4b946d8386bfa6e5467,housewares,SP,45,45,5433.61,120.75,28.9,39.3,0.32,18.9,0,1,0.0,2.22,0.0,0,4.523,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+951e8cef368f09bb3f3d03c00ca4702c,bed_bath_table,SP,62,60,5326.76,85.92,19.4,37.8,0.43,38.1,0,4,0.0,6.67,0.0,0,4.153,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+6860153b69cc696d5dcfe1cdaaafcf62,construction_tools_construction,SP,74,74,5318.24,71.87,27.0,23.5,0.51,32.3,0,6,0.0,8.11,20.0,1,4.096,6,5.67,0.0,58.35,257.15999999999997,4.093500000000001,9.362499999999999,0.0,30.125,,0
+715bbd5ba4e6b74cb0d2f29eb45058b0,watches_gifts,SP,61,61,5309.88,87.05,24.6,39.5,0.45,40.6,0,5,0.0,8.2,0.0,0,4.459,24,6.015000000000001,0.0,59.3,232.945,4.1845,10.6775,0.0225,46.825,,0
+db4350fd57ae30082dec7acbaacc17f9,telephony,SP,131,130,5308.0,40.52,26.7,14.8,0.46,31.9,0,5,0.0,3.85,2.94,0,4.215,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+65febd49fd28ec955651299159b1f527,housewares,SP,35,33,5301.14,151.46,14.3,46.4,0.28,28.2,0,0,0.0,0.0,0.0,0,4.314,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+b90e891671cffd9557f33a97dc523645,health_beauty,PR,34,34,5187.05,152.56,14.7,30.8,0.41,16.0,0,0,0.0,0.0,0.0,0,4.324,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+0509040ea3fe50071181bbc359eb7738,sports_leisure,MG,89,87,5183.1,58.24,18.0,14.3,0.29,27.3,0,4,0.0,4.6,0.0,0,4.483,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+232a6014e7b10cba61c6c2b2ea6bb4b0,pet_shop,SP,33,32,5133.27,155.55,15.2,33.3,0.37,34.9,0,1,0.0,3.13,0.0,0,4.156,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+6fc26fe110feebd80a433e1f012a84f9,furniture_decor,SP,35,35,5128.06,146.52,14.3,32.1,0.35,37.5,0,4,0.0,11.43,0.0,0,3.912,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+d12c926d74ceff0a90a21184466ce161,sports_leisure,SP,76,74,5098.51,67.09,17.1,27.8,0.25,12.8,0,1,0.0,1.35,0.0,0,4.329,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+d673a59aac7a70d8b01e6902bf090a11,baby,SP,71,71,5098.26,71.81,16.9,31.5,0.34,28.4,0,6,0.0,8.45,8.33,1,4.113,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+0ef83d7d83ed97cd2a0049ac8be5f88a,health_beauty,PR,46,46,5063.63,110.08,8.7,11.9,0.29,14.9,0,1,0.0,2.17,0.0,0,4.244,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+bccf933e006e9b94a6184af782963e77,health_beauty,SP,45,45,5047.21,112.16,8.9,22.5,0.44,30.9,0,1,0.0,2.22,0.0,0,4.523,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+822166ed1e47908f7cfb49946d03c726,bed_bath_table,RJ,64,64,5002.43,78.16,21.9,37.8,0.43,34.6,0,1,0.0,1.56,0.0,0,4.095,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+fde0cc9ea29c8ccfc0a2c22256a58c71,toys,PR,35,35,4921.27,140.61,11.4,24.1,0.4,70.7,0,1,0.0,2.86,0.0,0,4.486,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+382229d1e840115ffe3dbf5ff460e417,housewares,RJ,45,44,4915.36,109.23,13.3,23.7,0.37,34.3,0,3,0.0,6.82,33.33,0,4.2,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+b76dba6c951ab00dc4edf0a1aa88037e,telephony,SP,159,157,4893.25,30.78,32.7,4.9,0.36,26.7,0,5,0.0,3.18,8.0,0,4.178,19,4.86,0.0,33.3,90.16,4.01,9.015,0.54,16.950000000000003,,0
+55a5b51f93f2b70ea513f5a047b0262a,sports_leisure,MG,39,39,4891.77,125.43,30.8,38.5,0.27,30.3,0,1,0.0,2.56,0.0,0,4.462,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+e49c26c3edfa46d227d5121a6b6e4d37,consoles_games,PE,35,34,4869.75,139.14,25.7,54.5,1.11,34.9,1,0,2.86,0.0,0.0,0,4.457,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,,0
+95f83f51203c626648c875dd41874c7f,furniture_decor,MG,49,47,4852.15,99.02,30.6,36.4,0.42,21.5,1,1,2.04,2.13,0.0,0,3.755,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+cd6efc47efaabf134f8bdb654e10b4f1,stationery,RJ,31,31,4836.31,156.01,6.5,41.4,0.25,34.6,0,2,0.0,6.45,50.0,0,4.484,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+43f8c9950d11ecd03a0304a49e010da6,consoles_games,SP,41,41,4807.22,117.25,14.6,51.5,0.29,30.0,0,2,0.0,4.88,0.0,0,4.561,8,4.55,0.15,50.0,145.135,4.2175,8.285,2.545,24.975,,0
+520b493b57809f446cb0a233bb3e25c7,housewares,SP,62,62,4741.8,76.48,17.7,35.3,0.24,32.5,0,1,0.0,1.61,0.0,0,4.347,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+3f3486b61f45078d4f31ee5e43d8c5bb,luggage_accessories,SP,40,39,4726.57,118.16,15.0,27.6,0.4,22.8,0,4,0.0,10.26,16.67,0,4.325,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,,0
+8f119a0aee85c0c8fc534629734e94fd,toys,SP,75,73,4705.64,62.74,10.7,28.4,0.27,25.3,1,3,1.33,4.11,0.0,0,4.307,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+81f89e42267213cb94da7ddc301651da,perfumery,SP,45,45,4650.72,103.35,20.0,45.7,0.27,19.1,0,0,0.0,0.0,0.0,0,3.733,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+bf3c6d2a28b2b5501e6c15448982dcc9,baby,SP,35,35,4648.15,132.8,31.4,43.5,0.33,31.3,0,1,0.0,2.86,0.0,0,4.6,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+6a0cbc8af2e8abd1bdfb777943d174c6,sports_leisure,SP,35,34,4639.42,132.55,20.0,40.7,0.33,28.8,0,3,0.0,8.82,0.0,0,4.059,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+3f995f07c49d0d55a99d5c54957f7d81,auto,SP,43,43,4627.2,107.61,25.6,43.3,0.26,28.7,0,1,0.0,2.33,0.0,0,4.209,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+d5ba419e26d246a0719437cf37d9b46d,computers_accessories,SP,34,33,4626.59,136.08,20.6,21.7,0.9,14.0,0,3,0.0,9.09,16.67,0,3.909,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+66dc1b1632bd6a3e508510c5b3492107,sports_leisure,SP,37,36,4554.49,123.09,24.3,41.7,0.46,23.7,0,1,0.0,2.78,11.11,0,3.568,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+14d7985702e72162bbf13b6beb74ab2b,sports_leisure,SP,37,37,4547.14,122.9,27.0,28.0,0.58,28.6,0,4,0.0,10.81,20.0,1,4.324,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+f4aba7c0bca51484c30ab7bdc34bcdd1,health_beauty,SP,109,107,4523.79,41.5,29.4,9.5,0.26,36.8,0,6,0.0,5.61,6.25,1,3.944,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+8cbac7e12637ed9cffa18c7875207478,cool_stuff,SC,65,64,4522.78,69.58,18.5,21.3,0.32,31.2,0,4,0.0,6.25,25.0,0,4.215,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+f00e21b1e91a79653163b7fd8f293ff1,toys,SP,31,31,4492.85,144.93,12.9,44.0,0.29,9.6,0,1,0.0,3.23,25.0,0,4.1,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+3d8fa2f5b647373c8620330c4e077a9f,garden_tools,SP,43,42,4471.89,104.0,18.6,39.4,0.35,38.6,0,1,0.0,2.38,0.0,0,4.155,13,4.17,0.0,39.4,170.1,4.164,6.15,0.42,32.6,,0
+56642bcb79900e777d68e91915cb4267,health_beauty,SP,48,48,4471.79,93.16,22.9,34.3,0.25,18.4,0,4,0.0,8.33,0.0,0,4.063,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+02f5837340d7eb4f653d676c7256523a,luggage_accessories,PR,30,30,4463.88,148.8,6.7,39.3,0.27,68.6,0,1,0.0,3.33,0.0,0,4.833,7,2.58,0.0,42.8,148.8,4.325,4.48,0.655,36.3,,0
+1b8356dabde1d35e17cef975c3f82730,sports_leisure,SP,56,55,4413.61,78.81,16.1,25.6,0.28,27.4,0,1,0.0,1.82,0.0,0,4.161,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+3c4e0452bff7a2a788179488d3d77032,toys,PR,32,32,4352.52,136.02,18.8,60.0,0.24,34.4,0,1,0.0,3.13,0.0,0,3.839,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+96804ea39d96eb908e7c3afdb671bb9e,sports_leisure,MG,37,36,4342.61,117.37,29.7,25.0,0.3,19.3,0,1,0.0,2.78,0.0,0,4.135,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+e8f6dc8e6a1dcde89d20e3995c8d90b3,furniture_decor,SP,35,34,4341.05,124.03,17.1,31.0,0.32,24.6,0,3,0.0,8.82,0.0,0,3.943,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+276677b5d08786d5dce7c2149dcce48b,housewares,MG,33,31,4320.64,130.93,15.2,50.0,0.73,27.4,0,2,0.0,6.45,0.0,0,3.909,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+2d50d6282f8aa2257819a77bfaa0efe0,bed_bath_table,SP,42,40,4298.38,102.34,19.0,43.8,0.3,35.0,0,4,0.0,10.0,0.0,0,3.81,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+4c18691b6037662be2df78a765d98ab5,housewares,SP,62,62,4268.84,68.85,17.7,32.6,0.37,29.4,0,4,0.0,6.45,9.09,0,3.855,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+2745f798279e0ed033addcc1474776d7,sports_leisure,SP,31,31,4251.38,137.14,38.7,38.9,2.04,25.2,0,3,0.0,9.68,16.67,0,3.933,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+9646c3513289980f17226a2fc4720dbd,computers_accessories,SP,71,69,4247.32,59.82,35.2,18.4,0.27,15.7,2,2,2.82,2.9,8.33,0,4.352,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+5d3bb11474a06bdc23fb9e89f1164ee0,furniture_decor,SP,31,31,4178.82,134.8,25.8,39.1,0.42,28.2,0,1,0.0,3.23,12.5,0,3.903,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+994f04b3718c2bab35c2adfa8afecd2a,housewares,SP,48,46,4162.28,86.71,14.6,40.0,0.41,29.0,2,3,4.17,6.52,0.0,0,4.313,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+3bdff180c7e1f6551a643b99c265a120,computers_accessories,SP,59,56,4161.86,70.54,30.5,8.1,0.73,29.2,0,1,0.0,1.79,0.0,0,4.086,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+594f9aaa48e5bf431f011ddc5669b0d5,stationery,MG,37,37,4146.21,112.06,8.1,26.7,0.37,26.0,0,1,0.0,2.7,33.33,0,4.595,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+1838dd9b8977065acf51d95e0053ea7a,computers_accessories,MG,64,62,4075.88,63.69,34.4,9.8,0.46,23.3,0,2,0.0,3.23,9.09,1,4.266,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+6b90f847357d8981edd79a1eb1bf0acb,health_beauty,SP,45,45,4059.73,90.22,13.3,25.0,0.35,41.4,0,0,0.0,0.0,0.0,0,4.356,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+d57e18d5f73c7ccb7f7339b61166898d,fashion_bags_accessories,SP,60,60,4046.0,67.43,28.3,23.7,0.38,15.5,0,0,0.0,0.0,0.0,0,4.45,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+4da0e408c99d2fdc2126dc9fce518060,sports_leisure,PR,44,44,4044.47,91.92,20.5,26.5,0.27,13.8,0,0,0.0,0.0,0.0,0,4.409,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+33ac3e28642ab8bda860a2f693000e78,sports_leisure,SP,33,33,4041.83,122.48,9.1,35.7,0.24,29.7,0,0,0.0,0.0,0.0,0,4.303,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+b1ac6ea7895bc3dd6f0f6f4abbdd2821,sports_leisure,RS,40,38,3964.33,99.11,12.5,25.0,0.23,25.0,0,0,0.0,0.0,0.0,0,4.35,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+432c37c9dfba871172ec162e20118b8c,cool_stuff,DF,46,44,3938.54,85.62,23.9,28.1,0.38,36.5,1,4,2.17,9.09,0.0,0,4.109,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+0c7533c71df861ec58ad7ff999ed0e8d,perfumery,SP,60,60,3932.09,65.53,13.3,27.7,0.32,32.6,0,3,0.0,5.0,12.5,0,4.2,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+0ebd97a106433a45a4aebe57c1799778,fashion_bags_accessories,MG,31,31,3879.72,125.15,19.4,56.5,0.28,37.5,0,0,0.0,0.0,0.0,0,4.484,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+c9aafcd0621b2207c10e32c649cada4d,health_beauty,SP,43,39,3870.81,90.02,32.6,30.8,0.55,27.1,0,3,0.0,7.69,8.33,0,4.093,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+f7ccf836d21b2fb1de37564105216cc1,bed_bath_table,SP,68,67,3825.89,56.26,17.6,38.9,0.44,17.9,0,5,0.0,7.46,0.0,0,3.788,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+dd533b429f380718b70ad9922c294bae,toys,SP,39,37,3822.86,98.02,28.2,48.1,0.29,18.1,0,4,0.0,10.81,0.0,0,3.846,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+a17f621c590ea0fab3d5d883e1630ec6,sports_leisure,SP,62,60,3783.73,61.03,22.6,17.4,0.33,27.8,2,4,3.23,6.67,0.0,0,4.083,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+cb3dd9ce66268c7a3ca7241ac70ab58c,sports_leisure,SP,50,48,3725.71,74.51,26.0,30.3,0.28,32.7,1,2,2.0,4.17,8.33,0,4.15,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+b335c59ab742f751a85db9c411a86739,housewares,MG,33,30,3716.72,112.63,21.2,42.9,0.26,23.8,1,1,3.03,3.33,14.29,0,3.848,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+20d83f3ef0e6925fd74bfd59170babf7,fashion_bags_accessories,SP,39,39,3699.24,94.85,10.3,33.3,0.32,23.8,0,2,0.0,5.13,25.0,1,4.41,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+cce6ab8d1682639fe45ab70234f1665f,bed_bath_table,SP,63,61,3690.14,58.57,19.0,23.4,0.29,27.4,1,2,1.59,3.28,0.0,0,4.413,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+5f1dc28029d2c244352a68107ec2b542,health_beauty,SP,60,60,3678.29,61.3,16.7,25.0,0.29,20.7,0,1,0.0,1.67,0.0,0,4.475,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+5c6d4016c2a288f074fa0848a2b653d2,computers_accessories,SP,31,30,3580.05,115.49,12.9,45.8,0.56,44.9,0,3,0.0,10.0,0.0,0,4.032,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+974cf2cb8f4b7add98709c30df02fe10,computers_accessories,SP,33,30,3559.68,107.87,15.2,18.5,0.34,37.9,0,1,0.0,3.33,20.0,0,4.061,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+31561f325664a8a7aba4c8d0c3a9b3db,auto,SP,36,36,3405.92,94.61,16.7,38.5,0.33,27.7,0,0,0.0,0.0,0.0,0,4.639,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+cd06602b43d8800bd0afad514919d35c,housewares,SP,43,42,3374.58,78.48,11.6,21.9,0.24,85.5,1,2,2.33,4.76,20.0,0,3.744,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+f7720c4fa8e3aba4546301ab80ea1f1b,furniture_decor,PR,58,57,3341.34,57.61,20.7,13.5,0.32,27.9,0,3,0.0,5.26,8.33,0,4.233,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+fd386aa7bed2af3c7035c65506c9b4a3,stationery,SP,67,67,3307.29,49.36,19.4,12.2,0.43,30.6,0,7,0.0,10.45,15.38,1,4.373,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+5cbbd5a299cab112b7bf23862255e43e,housewares,PR,34,34,3306.2,97.24,11.8,25.9,0.58,27.4,0,0,0.0,0.0,0.0,0,4.353,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+33576ec5412fb5905d876f12f33bfde6,fashion_bags_accessories,PR,31,31,3287.98,106.06,19.4,16.7,0.28,33.2,0,1,0.0,3.23,0.0,0,4.097,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+1ce3ae5a399804d1a87e706f8a813c3e,furniture_decor,SC,36,36,3216.87,89.36,33.3,29.2,0.32,32.7,0,3,0.0,8.33,16.67,2,3.833,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+efcd8d2104f1a05d028af7bad20d974b,fashion_bags_accessories,SP,44,43,3201.44,72.76,25.0,25.9,0.39,25.7,0,1,0.0,2.33,0.0,0,4.318,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+6338ea67c41078a46ad99cc009654956,auto,RS,36,36,3193.03,88.7,33.3,39.1,0.63,27.0,0,0,0.0,0.0,0.0,0,4.618,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+4992e76a42cb3aad7a7047e0d3d7e729,housewares,SP,53,52,3055.94,57.66,18.9,23.7,0.33,18.2,0,3,0.0,5.77,0.0,0,3.887,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+3504c0cb71d7fa48d967e0e4c94d59d9,cool_stuff,SP,53,53,3050.26,57.55,11.3,20.0,0.31,32.5,0,0,0.0,0.0,0.0,0,4.415,17,6.06,0.0,41.0,184.94,4.171,8.33,0.74,30.0,,0
+c013e57c075a06e5b5c48ee03c525719,pet_shop,SP,42,42,3035.44,72.27,14.3,30.3,0.38,32.7,0,2,0.0,4.76,0.0,0,4.238,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+5a93f3ab0ef4c84ed5e1b5dbf23978bc,baby,SP,39,38,3035.38,77.83,33.3,24.0,0.31,40.3,0,1,0.0,2.63,0.0,0,4.692,22,5.805,0.0,36.15,143.75,4.119,9.7225,0.0,25.9,,0
+f214d28e8d8e3ef068748498ccc2f813,fashion_bags_accessories,SP,53,51,2995.55,56.52,22.6,10.3,0.35,32.3,0,4,0.0,7.84,8.33,0,4.135,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0
+b56906f7fd1696e043f1bcce164c487b,health_beauty,SP,40,40,2990.16,74.75,22.5,27.6,0.44,34.7,0,2,0.0,5.0,0.0,0,4.0,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+daeb5653dd96c1b11860f72209795012,toys,MG,40,38,2938.06,73.45,12.5,18.5,0.34,13.6,0,3,0.0,7.89,0.0,0,4.088,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+1d4587203296c8f4ad134dc286fa6db0,auto,SP,41,39,2920.57,71.23,7.3,11.1,0.57,37.3,0,1,0.0,2.56,0.0,0,4.293,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+d3f39f05462b79a4562d35893a28f159,perfumery,SP,32,31,2902.38,90.7,21.9,30.4,0.57,37.7,0,4,0.0,12.9,14.29,0,3.781,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+116ccb1a1604bc88e4d234a8c23f33de,auto,SP,59,59,2823.45,47.86,27.1,17.1,0.66,30.9,0,2,0.0,3.39,0.0,0,4.695,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+729b2d09b2a0bdab221076327f13d050,health_beauty,SP,49,48,2768.66,56.5,20.4,16.2,0.4,16.5,0,2,0.0,4.17,10.0,0,4.49,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+e38db885400cd35c71dfd162f2c1dbcf,bed_bath_table,DF,30,30,2737.55,91.25,16.7,30.4,0.34,16.7,0,3,0.0,10.0,0.0,0,4.467,45,6.67,0.0,48.7,129.46,4.045,10.0,0.0,38.2,,0
+6df688df543f90e9b38f4319e75a9d88,health_beauty,MG,40,39,2733.56,68.34,7.5,18.2,0.25,15.2,0,0,0.0,0.0,0.0,0,4.575,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+5160d23075764e18e07c1f4a87fad743,toys,SP,31,30,2638.17,85.1,22.6,40.9,0.3,16.5,1,0,3.23,0.0,0.0,0,4.581,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+7f7b8245c336066a1f9933c359f11d77,health_beauty,SP,38,38,2630.23,69.22,21.1,11.1,0.54,26.9,0,1,0.0,2.63,0.0,0,4.553,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+78c99c6dff4eeae5be99bf635ed21e3f,sports_leisure,SP,30,30,2586.97,86.23,23.3,38.1,0.27,23.2,0,2,0.0,6.67,0.0,0,4.533,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+bf84056e679dbe9c69929847a40e338f,health_beauty,SP,36,35,2479.81,68.88,30.6,8.3,0.38,16.1,0,2,0.0,5.71,9.09,0,3.75,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+25cf099de44674fde97473224f9d59ab,auto,SP,50,50,2359.55,47.19,24.0,5.7,0.38,23.9,0,2,0.0,4.0,0.0,0,4.327,20,6.18,0.0,26.5,106.56,4.196,8.315000000000001,0.0,15.600000000000001,,0
+3586b8580d9c917874e053a1bb37b5ff,stationery,SP,36,36,2352.35,65.34,36.1,45.5,1.53,38.0,0,1,0.0,2.78,0.0,0,4.417,12,6.640000000000001,0.0,38.25,115.35,4.349,10.7775,0.0925,23.075,,0
+9b00ed88b7fdb95d6ff76e27c1b52d16,sports_leisure,SP,47,46,2250.08,47.87,27.7,12.5,0.95,15.4,1,3,2.13,6.52,15.38,1,4.468,66,6.0649999999999995,0.0,27.15,123.815,4.1965,9.0225,0.35250000000000004,19.1,,0
+d9a84e1403de8da0c3aa531d6d108ba6,toys,SP,52,51,2072.86,39.86,19.2,10.0,0.35,33.8,0,3,0.0,5.88,0.0,0,4.654,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+718539d38d07dd351c76db862760e2e2,pet_shop,SP,37,35,1996.84,53.97,10.8,25.8,0.25,20.2,2,0,5.41,0.0,0.0,0,4.432,16,6.92,0.0,27.1,124.875,4.166,8.7,0.0,21.75,,0
+e63e8bfa530fb16910dd6956e592bb81,housewares,SP,39,38,1890.3,48.47,25.6,28.6,1.26,26.8,0,2,0.0,5.26,11.11,0,4.179,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+01fd077212124329bac32490e8ef80d9,health_beauty,SP,30,30,1764.12,58.8,23.3,0.0,0.35,41.1,0,1,0.0,3.33,14.29,0,4.233,63,6.25,0.0,38.7,124.92,4.184,10.89,0.0,25.25,,0
+138dbe45fc62f1e244378131a6801526,housewares,SP,46,46,1758.64,38.23,19.6,9.1,0.35,28.3,0,1,0.0,2.17,11.11,0,4.239,57,4.55,0.0,40.0,116.19,4.167,6.45,0.0,29.3,,0
+20cb7c2fde3e5bf10f0bbe7394e1c6a9,furniture_decor,PR,32,31,1660.28,51.88,18.8,30.4,0.35,34.8,0,3,0.0,9.68,16.67,0,4.0,46,6.145,0.0,39.2,136.13,4.01,9.68,0.275,31.275,,0
+1caf283236cd69af44cbc09a0a1e7d32,toys,RJ,33,33,1537.41,46.59,27.3,13.0,0.3,34.3,0,3,0.0,9.09,33.33,0,4.606,32,4.640000000000001,0.0,36.85,131.395,4.2675,7.5600000000000005,0.69,24.075000000000003,,0
+4e06067cc08b3f41d837768d392c3ee3,perfumery,MG,30,30,1506.97,50.23,23.3,19.0,0.43,33.8,0,1,0.0,3.33,0.0,0,4.2,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+325f3178fb58e2a9778334621eecdbf9,perfumery,SP,33,33,1386.5,42.02,30.3,8.7,0.29,27.7,0,0,0.0,0.0,0.0,0,4.576,17,5.88,0.0,45.7,144.18,4.2,7.87,0.0,30.4,,0
+18e694e0e48ed6f7aa3f24aade5fd697,computers_accessories,SP,31,31,1205.77,38.9,16.1,9.1,0.38,21.3,0,1,0.0,3.23,0.0,0,4.677,47,4.1,0.0,21.7,127.22,4.065,9.035,0.26,13.55,,0
+48efc9d94a9834137efd9ea76b065a38,fashion_bags_accessories,PR,33,33,666.0,20.18,87.9,0.0,37.75,37.9,0,0,0.0,0.0,0.0,0,5.0,16,2.825,0.0,23.2,68.51,4.352499999999999,8.5125,0.0,16.325,,0

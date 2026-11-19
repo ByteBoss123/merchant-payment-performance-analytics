@@ -1,0 +1,5 @@
+payment_type,orders,gmv_brl,gmv_share_pct,avg_order_value_brl,median_approval_hours,p90_approval_hours,failed_order_pct,late_delivery_pct,avg_review
+credit_card,74975,12542527.15,78.35,167.29,0.27,21.39,1.15,6.69,4.089
+boleto,19784,2869361.27,17.92,145.03,29.07,67.27,1.24,7.32,4.087
+voucher,3151,379043.91,2.37,120.29,0.28,24.22,3.62,6.05,4.006
+debit_card,1527,217939.79,1.36,142.72,0.85,24.04,0.85,5.33,4.17

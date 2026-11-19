@@ -1,0 +1,5 @@
+approval_band,delivered_orders,late_delivery_pct,median_delivery_days,avg_review
+1: <1h,61704,6.29,9.8,4.167
+2: 1-24h,17878,7.16,10.4,4.157
+3: 24-48h,11893,8.09,11.8,4.121
+4: 48h+,4981,8.19,12.3,4.099

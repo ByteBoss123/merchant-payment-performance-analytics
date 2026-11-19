@@ -1,0 +1,13 @@
+{
+  "sellers_scored": 567,
+  "peer_categories": 22,
+  "min_delivered_orders": 30,
+  "sellers_with_any_flag": 135,
+  "flag_counts": {
+    "late_above_peer_p75": 115,
+    "boleto_promise_gap": 9,
+    "failed_above_peer_p75": 5,
+    "installment_gap": 14
+  },
+  "gmv_share_of_flagged_sellers_pct": 29.9
+}

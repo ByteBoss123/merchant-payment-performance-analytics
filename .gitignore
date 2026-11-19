@@ -1,0 +1,4 @@
+data/raw/*.csv
+data/*.duckdb
+__pycache__/
+.pytest_cache/
